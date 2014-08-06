@@ -1,0 +1,6583 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Xibo Digital Signage\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-15 17:00-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dan Garner <dan@xibo.org.uk>\n"
+"Language-Team:  <info@xibo.org.uk>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: C:\\Users\\dan\\www\\release\\1.7.0-alpha\n"
+"X-Poedit-KeywordsList: __;Translate\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: server\n"
+"X-Poedit-SearchPath-1: server/lib/pages\n"
+"X-Poedit-SearchPath-2: server/lib/app\n"
+"X-Poedit-SearchPath-3: server/modules\n"
+"X-Poedit-SearchPath-4: server/lib/data\n"
+"X-Poedit-SearchPath-5: server/lib/service\n"
+"X-Poedit-SearchPath-6: server/theme/default/html\n"
+
+#: server/install.php:68
+msgid "Welcome to the Xibo Installer!"
+msgstr ""
+
+#: server/install.php:69
+msgid "The installer will take you through setting up Xibo one step at a time."
+msgstr ""
+
+#: server/install.php:70 server/upgrade.php:98
+msgid "Lets get started!"
+msgstr ""
+
+#: server/install.php:73 server/install.php:102 server/install.php:110
+#: server/install.php:329 server/install.php:345 server/install.php:384
+#: server/install.php:413 server/install.php:516 server/upgrade.php:104
+#: server/upgrade.php:199 server/upgrade.php:206 server/upgrade.php:278
+#: server/lib/pages/schedule.class.php:1396
+msgid "Next"
+msgstr ""
+
+#: server/install.php:82 server/upgrade.php:178
+msgid "First we need to check if your server meets Xibo's requirements."
+msgstr ""
+
+#: server/install.php:90 server/install.php:98 server/upgrade.php:188
+#: server/upgrade.php:196
+msgid "Retest"
+msgstr ""
+
+#: server/install.php:121
+msgid "Xibo needs to setup a new database."
+msgstr ""
+
+#: server/install.php:122
+msgid ""
+"If you have not yet created an empty database and database user for Xibo to "
+"use, and know the username/password of a MySQL administrator, click the "
+"\"Create New\" button, otherwise click \"Use Existing\"."
+msgstr ""
+
+#: server/install.php:123
+msgid "Note that any existing database must be empty"
+msgstr ""
+
+#: server/install.php:127
+msgid "Create New"
+msgstr ""
+
+#: server/install.php:131
+msgid "Use Existing"
+msgstr ""
+
+#: server/install.php:139
+msgid ""
+"Since no empty database has been created for Xibo to use, we need the "
+"username and password of a MySQL administrator to create a new database, and "
+"database user for Xibo."
+msgstr ""
+
+#: server/install.php:140
+msgid ""
+"Additionally, please give us a new username and password to create in MySQL "
+"for Xibo to use. Xibo will create this automatically for you."
+msgstr ""
+
+#: server/install.php:145 server/install.php:166
+msgid "Host:"
+msgstr ""
+
+#: server/install.php:146
+msgid "Admin Username:"
+msgstr ""
+
+#: server/install.php:147
+msgid "Admin Password:"
+msgstr ""
+
+#: server/install.php:148 server/install.php:167
+msgid "Xibo Database Name:"
+msgstr ""
+
+#: server/install.php:149 server/install.php:168
+msgid "Xibo Database Username:"
+msgstr ""
+
+#: server/install.php:150 server/install.php:169
+msgid "Xibo Database Password:"
+msgstr ""
+
+#: server/install.php:153 server/install.php:172
+msgid "Create"
+msgstr ""
+
+#: server/install.php:161
+msgid ""
+"Please enter the details of the database and user you have created for Xibo."
+msgstr ""
+
+#: server/install.php:181
+msgid "Something went wrong"
+msgstr ""
+
+#: server/install.php:198 server/install.php:256
+msgid "A field was blank. Please fill in all fields."
+msgstr ""
+
+#: server/install.php:204
+msgid ""
+"Could not connect to MySQL with the administrator details. Please check and "
+"try again."
+msgstr ""
+
+#: server/install.php:204 server/install.php:244 server/install.php:264
+#: server/install.php:295 server/install.php:365 server/install.php:373
+#: server/install.php:475 server/install.php:483 server/install.php:489
+#: server/install.php:495 server/install.php:501 server/install.php:505
+#: server/upgrade.php:63 server/upgrade.php:65 server/upgrade.php:126
+#: server/upgrade.php:347
+msgid "MySQL Error:"
+msgstr ""
+
+#: server/install.php:208
+msgid "Creating new database."
+msgstr ""
+
+#: server/install.php:216
+msgid ""
+"Could not create a new database with the administrator details. Please check "
+"and try again."
+msgstr ""
+
+#: server/install.php:226
+msgid "Creating new user"
+msgstr ""
+
+#: server/install.php:244
+msgid ""
+"Could not create a new user with the administrator details. Please check and "
+"try again."
+msgstr ""
+
+#: server/install.php:264
+msgid ""
+"Could not connect to MySQL with the Xibo User account details. Please check "
+"and try again."
+msgstr ""
+
+#: server/install.php:295 server/upgrade.php:347
+msgid "An error occured populating the database."
+msgstr ""
+
+#: server/install.php:306 server/install.php:318
+msgid ""
+"Unable to write to settings.php. We already checked this was possible "
+"earlier, so something changed."
+msgstr ""
+
+#: server/install.php:337
+msgid ""
+"Xibo needs to set the \"xibo_admin\" user password. Please enter a password "
+"for this account below."
+msgstr ""
+
+#: server/install.php:342
+msgid "Password:"
+msgstr ""
+
+#: server/install.php:343
+msgid "Retype Password:"
+msgstr ""
+
+#: server/install.php:355
+msgid "Please input a new password. Ensure both password fields are identical."
+msgstr ""
+
+#: server/install.php:365 server/install.php:475
+msgid ""
+"Could not connect to MySQL with the Xibo User account details saved in "
+"settings.php. Please check and try again."
+msgstr ""
+
+#: server/install.php:373
+msgid "An error occured changing the xibo_admin password."
+msgstr ""
+
+#: server/install.php:380
+msgid ""
+"Successfully changed the xibo_admin password. We're nearly there now. Just a "
+"couple more steps!"
+msgstr ""
+
+#: server/install.php:395
+msgid "Library Location"
+msgstr ""
+
+#: server/install.php:396
+msgid ""
+"Xibo needs somewhere to store the things you upload to be shown. Ideally, "
+"this should be somewhere outside the root of your webserver - that is such "
+"that is not accessible by a web browser. Please input the full path to this "
+"folder. If the folder does not already exist, Xibo will attempt to create it "
+"for you."
+msgstr ""
+
+#: server/install.php:399
+msgid "Library Location:"
+msgstr ""
+
+#: server/install.php:401
+msgid "Server Key"
+msgstr ""
+
+#: server/install.php:402
+msgid ""
+"Xibo needs you to choose a \"key\". This will be required each time you "
+"setup a new client. It should be complicated, and hard to remember. It is "
+"visible in the admin interface, so it need not be written down separately."
+msgstr ""
+
+#: server/install.php:404
+msgid "Server Key:"
+msgstr ""
+
+#: server/install.php:406 server/locale/dbtranslate.php:45
+msgid "Statistics"
+msgstr ""
+
+#: server/install.php:407
+msgid ""
+"We'd love to know you're running Xibo. If you're happy for us to collect "
+"anonymous statistics (version number, number of displays) then please leave "
+"the box ticked. Please untick the box if your server does not have direct "
+"access to the internet."
+msgstr ""
+
+#: server/install.php:409
+msgid "Anonymous Statistics:"
+msgstr ""
+
+#: server/install.php:428
+msgid "A field was blank. Please make sure you complete all fields"
+msgstr ""
+
+#: server/install.php:441
+msgid ""
+"A file exists with the name you gave for the Library Location. Please choose "
+"another location"
+msgstr ""
+
+#: server/install.php:448
+msgid ""
+"Could not create the Library Location directory for you. Please ensure the "
+"webserver has permission to create a folder in this location, or create the "
+"folder manually and grant permission for the webserver to write to the "
+"folder."
+msgstr ""
+
+#: server/install.php:456
+msgid ""
+"The Library Location you gave is not writable by the webserver. Please fix "
+"the permissions and try again."
+msgstr ""
+
+#: server/install.php:461
+msgid ""
+"The Library Location you gave is not empty. Please give the location of an "
+"empty folder"
+msgstr ""
+
+#: server/install.php:483
+msgid "An error occured changing the library location."
+msgstr ""
+
+#: server/install.php:489
+msgid "An error occured changing the server key."
+msgstr ""
+
+#: server/install.php:495
+msgid "An error occured setting the default timezone."
+msgstr ""
+
+#: server/install.php:501 server/install.php:505
+msgid "An error occured setting anonymous statistics."
+msgstr ""
+
+#: server/install.php:512
+msgid "Successfully set library location and server key."
+msgstr ""
+
+#: server/install.php:524
+msgid ""
+"Unable to delete install.php. Please ensure the webserver has permission to "
+"unlink this file and retry"
+msgstr ""
+
+#: server/install.php:524 server/install.php:527
+msgid "Retry"
+msgstr ""
+
+#: server/install.php:527
+msgid ""
+"Unable to delete upgrade.php. Please ensure the webserver has permission to "
+"unlink this file and retry"
+msgstr ""
+
+#: server/install.php:531
+msgid "Xibo was successfully installed."
+msgstr ""
+
+#: server/install.php:532
+msgid "Please click"
+msgstr ""
+
+#: server/install.php:532
+msgid "here"
+msgstr ""
+
+#: server/install.php:532
+msgid "to logon to Xibo as \"xibo_admin\" with the password you chose earlier."
+msgstr ""
+
+#: server/install.php:537 server/upgrade.php:383
+msgid ""
+"A required parameter was missing. Please go through the installer "
+"sequentially!"
+msgstr ""
+
+#: server/install.php:537
+msgid "Start Again"
+msgstr ""
+
+#: server/maintenance.php:106
+msgid "Maintenance Disabled"
+msgstr ""
+
+#: server/maintenance.php:107
+msgid ""
+"Maintenance tasks are disabled at the moment. Please enable them in the "
+"&quot;Settings&quot; dialog."
+msgstr ""
+
+#: server/maintenance.php:135
+#: server/theme/default/html/display_form_edit.php:70
+msgid "Email Alerts"
+msgstr ""
+
+#: server/maintenance.php:170 server/lib/pages/display.class.php:456
+msgid "Unable to access displays"
+msgstr ""
+
+#: server/maintenance.php:200
+#, php-format
+msgid "Email Alert for Display %s"
+msgstr ""
+
+#: server/maintenance.php:201
+#, php-format
+msgid "Display %s with ID %d was last seen at %s."
+msgstr ""
+
+#: server/maintenance.php:232
+msgid "Unable to update loggedin status for display."
+msgstr ""
+
+#: server/maintenance.php:245
+msgid "Tidy Logs"
+msgstr ""
+
+#: server/maintenance.php:257 server/maintenance.php:279
+msgid "Done."
+msgstr ""
+
+#: server/maintenance.php:262 server/maintenance.php:284
+msgid "Disabled"
+msgstr ""
+
+#: server/maintenance.php:267
+msgid "Tidy Stats"
+msgstr ""
+
+#: server/maintenance.php:290
+msgid "Wake On LAN"
+msgstr ""
+
+#: server/maintenance.php:333
+msgid "Maintenance key invalid."
+msgstr ""
+
+#: server/upgrade.php:63
+msgid ""
+"Unable to connect to the MySQL database using the settings stored in "
+"settings.php."
+msgstr ""
+
+#: server/upgrade.php:65
+msgid ""
+"Unable to select the MySQL database using the settings stored in settings."
+"php."
+msgstr ""
+
+#: server/upgrade.php:96
+msgid "Welcome to the Xibo Upgrade!"
+msgstr ""
+
+#: server/upgrade.php:97
+msgid ""
+"The upgrade program will take you through the process one step at a time."
+msgstr ""
+
+#: server/upgrade.php:99
+msgid "Please enter your xibo_admin password:"
+msgstr ""
+
+#: server/upgrade.php:126
+msgid "An error occured checking your password."
+msgstr ""
+
+#: server/upgrade.php:131 server/upgrade.php:145 server/upgrade.php:157
+#: server/upgrade.php:168
+msgid "Password incorrect. Please try again."
+msgstr ""
+
+#: server/upgrade.php:237
+msgid ""
+"Unable to calculate the upgradeTo value. Check for non-numeric SQL and PHP "
+"files in the 'install/database' directory."
+msgstr ""
+
+#: server/upgrade.php:263
+msgid "Warning: We included "
+msgstr ""
+
+#: server/upgrade.php:263
+msgid "but it did not include a class of appropriate name."
+msgstr ""
+
+#: server/upgrade.php:269
+msgid ""
+"I agree I have a valid database backup and can restore it should the upgrade "
+"process fail:"
+msgstr ""
+
+#: server/upgrade.php:310
+msgid "FAIL:"
+msgstr ""
+
+#: server/upgrade.php:320
+msgid ""
+"You MUST have a valid database backup to continue. Please take and verify a "
+"backup and upgrade again."
+msgstr ""
+
+#: server/upgrade.php:365
+msgid "Unable to delete install.php. Please remove this file manually."
+msgstr ""
+
+#: server/upgrade.php:368
+msgid "Unable to delete upgrade.php. Please remove this file manually."
+msgstr ""
+
+#: server/upgrade.php:371
+msgid "Upgrade is complete!"
+msgstr ""
+
+#: server/upgrade.php:373 server/theme/default/html/login_page.php:84
+msgid "Login"
+msgstr ""
+
+#: server/upgrade.php:377
+msgid ""
+"There was an error during the upgrade. Please take a screenshot of this page "
+"and seek help!"
+msgstr ""
+
+#: server/upgrade.php:430
+msgid "You must authenticate to run the upgrade."
+msgstr ""
+
+#: server/config/config.class.php:112
+msgid "No Version information - please contact technical support"
+msgstr ""
+
+#: server/config/config.class.php:130
+msgid "PHP Version"
+msgstr ""
+
+#: server/config/config.class.php:141
+msgid "PHP version 5.3.3 or later required."
+msgstr ""
+
+#: server/config/config.class.php:145
+msgid "Filesystem Permissions"
+msgstr ""
+
+#: server/config/config.class.php:156
+msgid "Write access required for the following:"
+msgstr ""
+
+#: server/config/config.class.php:164
+msgid "Please fix this, and retest."
+msgstr ""
+
+#: server/config/config.class.php:168
+msgid "MySQL database (PHP MySql)"
+msgstr ""
+
+#: server/config/config.class.php:187
+msgid "MySQL database (PDO MySql)"
+msgstr ""
+
+#: server/config/config.class.php:206
+msgid "JSON Extension"
+msgstr ""
+
+#: server/config/config.class.php:217
+msgid "PHP JSON extension required to function."
+msgstr ""
+
+#: server/config/config.class.php:221
+msgid "SOAP Extension"
+msgstr ""
+
+#: server/config/config.class.php:232
+msgid "PHP SOAP extension required to function."
+msgstr ""
+
+#: server/config/config.class.php:236
+msgid "GD Extension"
+msgstr ""
+
+#: server/config/config.class.php:247
+msgid "PHP GD extension to function."
+msgstr ""
+
+#: server/config/config.class.php:251
+msgid "Session"
+msgstr ""
+
+#: server/config/config.class.php:262
+msgid "PHP session support to function."
+msgstr ""
+
+#: server/config/config.class.php:266
+msgid "FileInfo"
+msgstr ""
+
+#: server/config/config.class.php:277
+msgid ""
+"Requires PHP FileInfo support to function. If you are on Windows you need to "
+"enable the php_fileinfo.dll in your php.ini file."
+msgstr ""
+
+#: server/config/config.class.php:281
+msgid "PCRE"
+msgstr ""
+
+#: server/config/config.class.php:292
+msgid "PHP PCRE support to function."
+msgstr ""
+
+#: server/config/config.class.php:296
+msgid "Gettext"
+msgstr ""
+
+#: server/config/config.class.php:310
+msgid "PHP Gettext support to function."
+msgstr ""
+
+#: server/config/config.class.php:314
+msgid "Calendar Extension"
+msgstr ""
+
+#: server/config/config.class.php:325
+msgid "PHP Calendar extension to function."
+msgstr ""
+
+#: server/config/config.class.php:329
+msgid "DOM Extension"
+msgstr ""
+
+#: server/config/config.class.php:340
+msgid "PHP DOM core functionality enabled."
+msgstr ""
+
+#: server/config/config.class.php:344
+msgid "DOM XML Extension"
+msgstr ""
+
+#: server/config/config.class.php:355
+msgid "PHP DOM XML extension to function."
+msgstr ""
+
+#: server/config/config.class.php:359
+msgid "Mcrypt Extension"
+msgstr ""
+
+#: server/config/config.class.php:370
+msgid "PHP Mcrypt extension to function."
+msgstr ""
+
+#: server/config/config.class.php:374
+msgid "Allow PHP to open external URLs"
+msgstr ""
+
+#: server/config/config.class.php:385
+msgid ""
+"You must have allow_url_fopen = On in your PHP.ini file for anonymous "
+"statistics gathering to function."
+msgstr ""
+
+#: server/config/config.class.php:386
+msgid ""
+"If you do not intend to enable anonymous statistics gathering you need not "
+"worry about this problem."
+msgstr ""
+
+#: server/config/config.class.php:414
+msgid ""
+"You probably want to allow larger files to be uploaded than is currently "
+"available with your PHP configuration."
+msgstr ""
+
+#: server/config/config.class.php:415
+msgid ""
+"We suggest setting your PHP post_max_size and upload_max_size to at least "
+"128M, and also increasing your max_execution_time to at least 120 seconds."
+msgstr ""
+
+#: server/lib/app/formmanager.class.php:55
+msgid "Query Error"
+msgstr ""
+
+#: server/lib/app/formmanager.class.php:60
+msgid "No selections available"
+msgstr ""
+
+#: server/lib/app/helpmanager.class.php:54
+#: server/lib/modules/module.class.php:498
+#: server/lib/modules/module.class.php:1433
+#: server/lib/pages/campaign.class.php:144
+#: server/lib/pages/campaign.class.php:214
+#: server/lib/pages/campaign.class.php:283
+#: server/lib/pages/campaign.class.php:388
+#: server/lib/pages/campaign.class.php:576
+#: server/lib/pages/content.class.php:208
+#: server/lib/pages/content.class.php:258
+#: server/lib/pages/dataset.class.php:157
+#: server/lib/pages/dataset.class.php:220
+#: server/lib/pages/dataset.class.php:276
+#: server/lib/pages/dataset.class.php:367
+#: server/lib/pages/dataset.class.php:398
+#: server/lib/pages/dataset.class.php:478
+#: server/lib/pages/dataset.class.php:543
+#: server/lib/pages/dataset.class.php:894
+#: server/lib/pages/dataset.class.php:1050
+#: server/lib/pages/display.class.php:278
+#: server/lib/pages/display.class.php:505
+#: server/lib/pages/display.class.php:569
+#: server/lib/pages/display.class.php:659
+#: server/lib/pages/display.class.php:758
+#: server/lib/pages/displaygroup.class.php:156
+#: server/lib/pages/displaygroup.class.php:204
+#: server/lib/pages/displaygroup.class.php:232
+#: server/lib/pages/displaygroup.class.php:309
+#: server/lib/pages/displaygroup.class.php:549
+#: server/lib/pages/displaygroup.class.php:710
+#: server/lib/pages/group.class.php:224 server/lib/pages/group.class.php:248
+#: server/lib/pages/group.class.php:342 server/lib/pages/group.class.php:501
+#: server/lib/pages/group.class.php:698 server/lib/pages/help.class.php:107
+#: server/lib/pages/layout.class.php:270 server/lib/pages/layout.class.php:515
+#: server/lib/pages/layout.class.php:601 server/lib/pages/layout.class.php:803
+#: server/lib/pages/log.class.php:226 server/lib/pages/module.class.php:201
+#: server/lib/pages/oauth.class.php:130 server/lib/pages/oauth.class.php:208
+#: server/lib/pages/oauth.class.php:286
+#: server/lib/pages/resolution.class.php:124
+#: server/lib/pages/resolution.class.php:165
+#: server/lib/pages/resolution.class.php:190
+#: server/lib/pages/schedule.class.php:435
+#: server/lib/pages/schedule.class.php:1394
+#: server/lib/pages/schedule.class.php:1508
+#: server/lib/pages/schedule.class.php:1715
+#: server/lib/pages/schedule.class.php:1813
+#: server/lib/pages/schedule.class.php:1900
+#: server/lib/pages/sessions.class.php:154
+#: server/lib/pages/template.class.php:154
+#: server/lib/pages/template.class.php:256
+#: server/lib/pages/template.class.php:367
+#: server/lib/pages/timeline.class.php:347
+#: server/lib/pages/timeline.class.php:547
+#: server/lib/pages/timeline.class.php:826
+#: server/lib/pages/transition.class.php:163
+#: server/lib/pages/user.class.php:546 server/lib/pages/user.class.php:572
+#: server/lib/pages/user.class.php:600 server/lib/pages/user.class.php:664
+#: server/lib/pages/user.class.php:691 server/lib/pages/user.class.php:742
+#: server/modules/microblog.module.php:58
+#: server/modules/microblog.module.php:139
+#: server/theme/default/html/header.php:72
+#: server/theme/default/html/settings_page.php:36
+msgid "Help"
+msgstr ""
+
+#: server/lib/app/kit.class.php:241
+#, php-format
+msgid "No integer match found for [%s] and return value is not an integer"
+msgstr ""
+
+#: server/lib/app/kit.class.php:255
+#, php-format
+msgid "No integer match found for %s, and return value is not an integer"
+msgstr ""
+
+#: server/lib/app/kit.class.php:290
+#, php-format
+msgid "No integer found for %s, and return value is not an integer"
+msgstr ""
+
+#: server/lib/app/kit.class.php:360
+#, php-format
+msgid "Unknown Type %s"
+msgstr ""
+
+#: server/lib/app/menumanager.class.php:49
+msgid "No menu provided"
+msgstr ""
+
+#: server/lib/app/menumanager.class.php:55
+msgid "No permissions for this menu."
+msgstr ""
+
+#: server/lib/app/pagemanager.class.php:97
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: server/lib/app/pagemanager.class.php:103
+msgid "The requested page does not exist"
+msgstr ""
+
+#: server/lib/app/responsemanager.class.php:93
+#: server/lib/service/serviceresponse.class.php:39
+msgid "Unable to open connection and start transaction"
+msgstr ""
+
+#: server/lib/app/thememanager.class.php:51
+#, php-format
+msgid "The theme \"%s\" does not exist"
+msgstr ""
+
+#: server/lib/app/thememanager.class.php:58
+#, php-format
+msgid "The theme \"%s\" config file does not exist"
+msgstr ""
+
+#: server/lib/app/thememanager.class.php:71
+msgid "Theme not initialised"
+msgstr ""
+
+#: server/lib/app/thememanager.class.php:93
+#, php-format
+msgid "The requested theme item does not exist. [%s, %s]"
+msgstr ""
+
+#: server/lib/data/campaign.data.class.php:35
+#: server/lib/data/campaign.data.class.php:65
+msgid "Campaign name cannot be empty"
+msgstr ""
+
+#: server/lib/data/campaign.data.class.php:51
+msgid "Unable to add Campaign, Step 1"
+msgstr ""
+
+#: server/lib/data/campaign.data.class.php:80
+msgid "Unable to edit Campaign, Step 1"
+msgstr ""
+
+#: server/lib/data/campaign.data.class.php:97
+msgid "Unable to Unlink"
+msgstr ""
+
+#: server/lib/data/campaign.data.class.php:104
+#: server/lib/modules/module.class.php:1472
+#: server/lib/modules/module.class.php:1478
+#: server/lib/modules/module.class.php:1508
+#: server/lib/modules/module.class.php:1513
+#: server/lib/modules/module.class.php:1545
+#: server/lib/modules/module.class.php:1550
+#: server/lib/pages/campaign.class.php:416
+#: server/lib/pages/campaign.class.php:443
+#: server/lib/pages/campaign.class.php:472
+#: server/lib/pages/dataset.class.php:922
+#: server/lib/pages/dataset.class.php:949
+#: server/lib/pages/dataset.class.php:978
+#: server/lib/pages/displaygroup.class.php:342
+#: server/lib/pages/displaygroup.class.php:579
+#: server/lib/pages/displaygroup.class.php:606
+#: server/lib/pages/displaygroup.class.php:635
+#: server/lib/pages/template.class.php:400
+#: server/lib/pages/template.class.php:427
+#: server/lib/pages/template.class.php:456
+#: server/lib/pages/timeline.class.php:575
+#: server/lib/pages/timeline.class.php:602
+#: server/lib/pages/timeline.class.php:631
+msgid "Unable to set permissions"
+msgstr ""
+
+#: server/lib/data/campaign.data.class.php:119
+msgid "Unable to delete Campaign"
+msgstr ""
+
+#: server/lib/data/campaign.data.class.php:147
+msgid "Unable to link Campaign to Layout"
+msgstr ""
+
+#: server/lib/data/campaign.data.class.php:173
+msgid "Unable to unlink Campaign from Layout"
+msgstr ""
+
+#: server/lib/data/campaign.data.class.php:196
+msgid "Unable to unlink all Layouts"
+msgstr ""
+
+#: server/lib/data/campaign.data.class.php:230
+#: server/lib/data/campaignsecurity.data.class.php:96
+#: server/modules/module_user_general.php:928
+msgid "Layout has no associated Campaign, corrupted Layout"
+msgstr ""
+
+#: server/lib/data/campaignsecurity.data.class.php:65
+msgid "Could not Link Campaign to Group"
+msgstr ""
+
+#: server/lib/data/campaignsecurity.data.class.php:125
+#: server/lib/data/campaignsecurity.data.class.php:153
+msgid "Could not Unlink Campaign from Group"
+msgstr ""
+
+#: server/lib/data/campaignsecurity.data.class.php:196
+msgid "Could not Copy All Campaign Security"
+msgstr ""
+
+#: server/lib/data/dataset.data.class.php:39
+#: server/lib/data/dataset.data.class.php:93
+msgid "Name must be between 1 and 50 characters"
+msgstr ""
+
+#: server/lib/data/dataset.data.class.php:42
+#: server/lib/data/dataset.data.class.php:99
+#: server/lib/data/displaygroup.data.class.php:52
+#: server/lib/data/displaygroup.data.class.php:111
+#: server/lib/data/layout.data.class.php:58
+#: server/lib/data/layout.data.class.php:161
+msgid "Description can not be longer than 254 characters"
+msgstr ""
+
+#: server/lib/data/dataset.data.class.php:52
+#: server/lib/data/dataset.data.class.php:111
+#, php-format
+msgid "There is already dataset called '%s'. Please choose another name."
+msgstr ""
+
+#: server/lib/data/dataset.data.class.php:75
+msgid "Could not add DataSet"
+msgstr ""
+
+#: server/lib/data/dataset.data.class.php:127
+#: server/lib/data/dataset.data.class.php:173
+#, php-format
+msgid "Cannot edit dataset %s"
+msgstr ""
+
+#: server/lib/data/dataset.data.class.php:147
+msgid "There is data assigned to this data set, cannot delete."
+msgstr ""
+
+#: server/lib/data/dataset.data.class.php:158
+msgid "Cannot delete dataset, columns could not be deleted."
+msgstr ""
+
+#: server/lib/data/dataset.data.class.php:196
+#: server/lib/data/dataset.data.class.php:219
+#: server/lib/data/dataset.data.class.php:243
+#: server/lib/data/dataset.data.class.php:270
+#: server/lib/data/dataset.data.class.php:296
+#: server/lib/data/dataset.data.class.php:469
+#: server/lib/data/dataset.data.class.php:489
+#: server/lib/data/datasetcolumn.data.class.php:256
+#: server/lib/data/datasetdata.data.class.php:80
+#: server/lib/data/datasetdata.data.class.php:233
+#: server/lib/data/datasetdata.data.class.php:280
+#: server/lib/data/datasetgroupsecurity.data.class.php:66
+#: server/lib/data/display.data.class.php:556
+#: server/lib/data/displaygroup.data.class.php:452
+#: server/lib/data/displaygroup.data.class.php:493
+#: server/lib/data/file.data.class.php:87
+#: server/lib/data/file.data.class.php:128
+#: server/lib/data/file.data.class.php:186
+#: server/lib/data/layout.data.class.php:278
+#: server/lib/data/layout.data.class.php:370
+#: server/lib/data/layout.data.class.php:790
+#: server/lib/data/layout.data.class.php:995
+#: server/lib/data/layout.data.class.php:1026
+#: server/lib/data/layoutmediagroupsecurity.data.class.php:98
+#: server/lib/data/layoutregiongroupsecurity.data.class.php:100
+#: server/lib/data/lkmediadisplaygroup.data.class.php:52
+#: server/lib/data/lkmediadisplaygroup.data.class.php:80
+#: server/lib/data/lkmediadisplaygroup.data.class.php:108
+#: server/lib/data/media.data.class.php:419
+#: server/lib/data/media.data.class.php:563
+#: server/lib/data/mediagroupsecurity.data.class.php:98
+#: server/lib/data/region.data.class.php:648
+#: server/lib/data/region.data.class.php:691
+#: server/lib/data/region.data.class.php:1033
+#: server/lib/data/schedule.data.class.php:413
+#: server/lib/data/schedule.data.class.php:601
+#: server/lib/data/usergroup.data.class.php:337
+#: server/lib/modules/module.class.php:1063
+#: server/lib/modules/module.class.php:1279
+#: server/lib/pages/error.class.php:49
+msgid "Unknown Error"
+msgstr ""
+
+#: server/lib/data/datasetcolumn.data.class.php:30
+#: server/lib/data/datasetcolumn.data.class.php:186
+#: server/lib/data/datasetcolumn.data.class.php:209
+#: server/lib/data/datasetdata.data.class.php:41
+#: server/lib/data/datasetdata.data.class.php:184
+#: server/lib/data/datasetdata.data.class.php:246
+#: server/lib/data/datasetdata.data.class.php:289
+#: server/lib/data/datasetgroupsecurity.data.class.php:28
+#: server/lib/data/datasetgroupsecurity.data.class.php:81
+#: server/lib/data/datasetgroupsecurity.data.class.php:125
+#: server/lib/data/datasetgroupsecurity.data.class.php:155
+#: server/lib/data/datasetgroupsecurity.data.class.php:190
+msgid "Missing dataSetId"
+msgstr ""
+
+#: server/lib/data/datasetcolumn.data.class.php:33
+#: server/lib/data/datasetcolumn.data.class.php:96
+msgid "Missing dataTypeId"
+msgstr ""
+
+#: server/lib/data/datasetcolumn.data.class.php:36
+#: server/lib/data/datasetcolumn.data.class.php:99
+msgid "Missing dataSetColumnTypeId"
+msgstr ""
+
+#: server/lib/data/datasetcolumn.data.class.php:39
+#: server/lib/data/datasetcolumn.data.class.php:102
+msgid "Please provide a column heading."
+msgstr ""
+
+#: server/lib/data/datasetcolumn.data.class.php:58
+msgid "Could not determine the Column Order"
+msgstr ""
+
+#: server/lib/data/datasetcolumn.data.class.php:86
+msgid "Could not add DataSet Column"
+msgstr ""
+
+#: server/lib/data/datasetcolumn.data.class.php:93
+#: server/lib/data/datasetcolumn.data.class.php:162
+#: server/lib/data/datasetdata.data.class.php:89
+#: server/lib/data/datasetdata.data.class.php:125
+msgid "Missing dataSetColumnId"
+msgstr ""
+
+#: server/lib/data/datasetcolumn.data.class.php:132
+msgid ""
+"New list content value is invalid as it doesnt include values for existing "
+"data"
+msgstr ""
+
+#: server/lib/data/datasetcolumn.data.class.php:155
+msgid "Could not edit DataSet Column"
+msgstr ""
+
+#: server/lib/data/datasetcolumn.data.class.php:178
+#: server/lib/data/datasetcolumn.data.class.php:202
+msgid "Could not delete DataSet Column"
+msgstr ""
+
+#: server/lib/data/datasetcolumn.data.class.php:231
+msgid "No columns"
+msgstr ""
+
+#: server/lib/data/datasetdata.data.class.php:58
+msgid "No data"
+msgstr ""
+
+#: server/lib/data/datasetdata.data.class.php:92
+#: server/lib/data/datasetdata.data.class.php:128
+msgid "Missing rowNumber"
+msgstr ""
+
+#: server/lib/data/datasetdata.data.class.php:118
+msgid "Could not add DataSet Data"
+msgstr ""
+
+#: server/lib/data/datasetdata.data.class.php:151
+msgid "Could not edit DataSet Data"
+msgstr ""
+
+#: server/lib/data/datasetdata.data.class.php:177
+msgid "Could not delete Data for Column/Row"
+msgstr ""
+
+#: server/lib/data/datasetdata.data.class.php:205
+msgid "Could not delete Data for entire DataSet"
+msgstr ""
+
+#: server/lib/data/datasetdata.data.class.php:292
+msgid "CSV File does not exist"
+msgstr ""
+
+#: server/lib/data/datasetdata.data.class.php:295
+msgid "Missing spreadSheetMapping"
+msgstr ""
+
+#: server/lib/data/datasetdata.data.class.php:320
+msgid "Could not determine the Max row number"
+msgstr ""
+
+#: server/lib/data/datasetdata.data.class.php:374
+msgid "Unable to Import"
+msgstr ""
+
+#: server/lib/data/datasetgroupsecurity.data.class.php:84
+#: server/lib/data/datasetgroupsecurity.data.class.php:158
+msgid "Missing groupId"
+msgstr ""
+
+#: server/lib/data/datasetgroupsecurity.data.class.php:108
+#: server/lib/data/datasetgroupsecurity.data.class.php:142
+msgid "Could not Link DataSet to Group"
+msgstr ""
+
+#: server/lib/data/datasetgroupsecurity.data.class.php:175
+#: server/lib/data/datasetgroupsecurity.data.class.php:206
+msgid "Could not Unlink DataSet from Group"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:73
+#: server/lib/data/displaygroup.data.class.php:362
+msgid "Could not add a display group for the new display."
+msgstr ""
+
+#: server/lib/data/display.data.class.php:77
+#: server/lib/data/displaygroup.data.class.php:366
+msgid "Could not link the new display with its group."
+msgstr ""
+
+#: server/lib/data/display.data.class.php:88
+msgid "Could not add display"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:122
+msgid "Cannot find display record"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:132
+msgid "Unable to get count of licensed displays."
+msgstr ""
+
+#: server/lib/data/display.data.class.php:139
+#, php-format
+msgid "You have exceeded your maximum number of licensed displays. %d"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:151
+msgid "BroadCast Address is not a valid IP Address"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:158
+msgid "CIDR subnet mask is not a number within the range of 0 to 32."
+msgstr ""
+
+#: server/lib/data/display.data.class.php:168
+msgid ""
+"Pattern of secureOn-password is not \"xx-xx-xx-xx-xx-xx\" (x = digit or "
+"CAPITAL letter)"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:215
+#: server/lib/data/display.data.class.php:306
+msgid "Could not update this display with a new name."
+msgstr ""
+
+#: server/lib/data/display.data.class.php:227
+msgid "Could not update display"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:275
+msgid "Unable to delete display record."
+msgstr ""
+
+#: server/lib/data/display.data.class.php:317
+msgid "Unable to edit display record."
+msgstr ""
+
+#: server/lib/data/display.data.class.php:418
+msgid "Error updating this displays last accessed information."
+msgstr ""
+
+#: server/lib/data/display.data.class.php:528
+msgid "Error updating this displays default layout."
+msgstr ""
+
+#: server/lib/data/display.data.class.php:582
+msgid "Unable to get the Mac or Client Address"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:586
+#: server/lib/pages/display.class.php:844
+msgid ""
+"This display has no mac address recorded against it yet. Make sure the "
+"display is running."
+msgstr ""
+
+#: server/lib/data/display.data.class.php:606
+msgid "Unknown Error."
+msgstr ""
+
+#: server/lib/data/display.data.class.php:637
+msgid ""
+"Pattern of MAC-address is not \"xx-xx-xx-xx-xx-xx\" (x = digit or letter)"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:663
+msgid ""
+"Pattern of SecureOn-password is not \"xx-xx-xx-xx-xx-xx\" (x = digit or "
+"CAPITAL letter)"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:680
+msgid "No IP Address Specified"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:689
+msgid "IP Address Incorrectly Formed"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:698
+msgid "CIDR subnet mask is not a number within the range of 0 till 32."
+msgstr ""
+
+#: server/lib/data/display.data.class.php:756
+msgid "Port is not a number within the range of 0 till 65536. Port Provided: "
+msgstr ""
+
+#: server/lib/data/display.data.class.php:760
+msgid ""
+"No magic packet can been sent, since UDP is unsupported (not a registered "
+"socket transport)"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:790
+msgid "Using \"fwrite()\" failed, due to error: "
+msgstr ""
+
+#: server/lib/data/display.data.class.php:797
+msgid "Using fsockopen() failed, due to denied permission"
+msgstr ""
+
+#: server/lib/data/display.data.class.php:820
+msgid "Using \"socket_set_option()\" failed, due to error: "
+msgstr ""
+
+#: server/lib/data/display.data.class.php:848
+#: server/lib/data/display.data.class.php:853
+msgid "Using \"socket_sendto()\" failed, due to error: "
+msgstr ""
+
+#: server/lib/data/display.data.class.php:858
+msgid "Wake On Lan Failed as there are no functions available to transmit it"
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:49
+#: server/lib/data/displaygroup.data.class.php:108
+msgid "Please enter a display group name"
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:60
+#: server/lib/data/displaygroup.data.class.php:120
+#, php-format
+msgid ""
+"You already own a display group called \"%s\". Please choose another name."
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:83
+#: server/lib/data/displaygroup.data.class.php:141
+msgid "Could not add Display Group"
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:105
+msgid "No Display Group Selected"
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:180
+#: server/lib/data/displaygroup.data.class.php:257
+msgid "Unable to delete Display Group."
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:213
+#: server/lib/data/displaygroup.data.class.php:220
+#: server/lib/data/displaygroup.data.class.php:349
+msgid "Unable to get the DisplayGroup for this Display"
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:226
+msgid "Unable to delete Schedule records for this DisplayGroup."
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:231
+#: server/lib/data/media.data.class.php:362
+msgid "Unable to drop file assignments during display delete."
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:288
+msgid "Could not Link Display Group to Display"
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:317
+msgid "Could not Unlink Display Group from Display"
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:385
+msgid "Unable to update the DisplayGroup for this Display"
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:420
+#: server/lib/data/region.data.class.php:977
+msgid "No media to assign"
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:424
+msgid "Unable to make this assignment during preparation."
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:435
+#: server/lib/pages/displaygroup.class.php:869
+msgid ""
+"You have selected media that you no longer have permission to use. Please "
+"reload the form."
+msgstr ""
+
+#: server/lib/data/displaygroup.data.class.php:439
+msgid "Unable to make this assignment"
+msgstr ""
+
+#: server/lib/data/displaygroupsecurity.data.class.php:63
+msgid "Could not Link Display Group to User Group"
+msgstr ""
+
+#: server/lib/data/displaygroupsecurity.data.class.php:97
+msgid "Could not Unlink Display Group from User Group"
+msgstr ""
+
+#: server/lib/data/displaygroupsecurity.data.class.php:130
+msgid "Could not Unlink All Display Groups from User Group"
+msgstr ""
+
+#: server/lib/data/file.data.class.php:141
+msgid "Missing fileId"
+msgstr ""
+
+#: server/lib/data/help.data.class.php:37
+#: server/lib/data/help.data.class.php:82
+msgid "Topic is a required field. It must be between 1 and 254 characters."
+msgstr ""
+
+#: server/lib/data/help.data.class.php:40
+#: server/lib/data/help.data.class.php:85
+msgid "Category is a required field. It must be between 1 and 254 characters."
+msgstr ""
+
+#: server/lib/data/help.data.class.php:43
+#: server/lib/data/help.data.class.php:88
+msgid "Link is a required field. It must be between 1 and 254 characters."
+msgstr ""
+
+#: server/lib/data/help.data.class.php:59
+msgid "Unable to Add Help record"
+msgstr ""
+
+#: server/lib/data/help.data.class.php:79
+#: server/lib/data/help.data.class.php:123
+msgid "Help Link not selected"
+msgstr ""
+
+#: server/lib/data/help.data.class.php:106
+msgid "Unable to Edit Help record"
+msgstr ""
+
+#: server/lib/data/help.data.class.php:137
+msgid "Unable to Delete Help record"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:55
+#: server/lib/data/layout.data.class.php:158
+msgid "Layout Name must be between 1 and 50 characters"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:61
+#: server/lib/data/layout.data.class.php:164
+msgid "Tags can not be longer than 254 characters"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:71
+#: server/lib/data/layout.data.class.php:175
+#, php-format
+msgid "You already own a layout called '%s'. Please choose another name."
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:108
+msgid "Unable to edit tags"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:134
+msgid "Could not add Layout"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:220
+#, php-format
+msgid "Unknown error editing %s"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:257
+msgid "Unknown template"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:303
+msgid "Unable to set XML"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:544
+msgid "Unable to copy layout"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:603
+msgid "Unable to find stored value of newly copied media"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:649
+msgid "Unable to Copy this Layout"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:666
+#: server/lib/data/layout.data.class.php:696
+msgid "No Layout selected"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:678
+msgid "Unable to retire this layout."
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:713
+msgid "Unable to delete campaign"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:726
+msgid "Unable to delete layout"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:758
+#: server/lib/data/region.data.class.php:286
+msgid "Database error adding this link record."
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:779
+msgid "Unknown Module"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:810
+msgid "Layout not selected"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:813
+msgid "Resolution not selected"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:830
+msgid "Cannot find the background image selected"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:843
+#: server/lib/pages/layout.class.php:590
+msgid "Unable to get the Resolution information"
+msgstr ""
+
+#: server/lib/data/layout.data.class.php:872
+msgid "Unable to update background information"
+msgstr ""
+
+#: server/lib/data/layoutmediagroupsecurity.data.class.php:61
+msgid "Could not Link Layout Media to Group"
+msgstr ""
+
+#: server/lib/data/layoutmediagroupsecurity.data.class.php:134
+#: server/lib/data/layoutmediagroupsecurity.data.class.php:169
+msgid "Could not Unlink Layout Media from Group"
+msgstr ""
+
+#: server/lib/data/layoutmediagroupsecurity.data.class.php:221
+#: server/lib/data/mediagroupsecurity.data.class.php:211
+msgid "Could not Copy Layout Media Security"
+msgstr ""
+
+#: server/lib/data/layoutmediagroupsecurity.data.class.php:269
+#: server/lib/data/layoutmediagroupsecurity.data.class.php:321
+msgid "Could not Copy All Layout Media Security"
+msgstr ""
+
+#: server/lib/data/layoutregiongroupsecurity.data.class.php:61
+msgid "Could not Link Layout Region to Group"
+msgstr ""
+
+#: server/lib/data/layoutregiongroupsecurity.data.class.php:135
+msgid "Could not Unlink Layout Region from Group"
+msgstr ""
+
+#: server/lib/data/layoutregiongroupsecurity.data.class.php:169
+msgid "Could not Unlink Layout Region from Groups"
+msgstr ""
+
+#: server/lib/data/layoutregiongroupsecurity.data.class.php:216
+msgid "Could not Copy All Layout Region Security"
+msgstr ""
+
+#: server/lib/data/media.data.class.php:61
+#: server/lib/data/media.data.class.php:251
+#: server/lib/modules/module.class.php:802
+#, php-format
+msgid "Your library is full. Library Limit: %s K"
+msgstr ""
+
+#: server/lib/data/media.data.class.php:73
+msgid "Invalid file extension"
+msgstr ""
+
+#: server/lib/data/media.data.class.php:77
+#: server/lib/data/media.data.class.php:187
+msgid "The name cannot be longer than 100 characters"
+msgstr ""
+
+#: server/lib/data/media.data.class.php:81
+#: server/lib/data/media.data.class.php:190
+#: server/modules/datasetview.module.php:231
+#: server/modules/datasetview.module.php:293
+msgid "You must enter a duration."
+msgstr ""
+
+#: server/lib/data/media.data.class.php:99
+#: server/lib/data/media.data.class.php:201
+msgid "Media you own already has this name. Please choose another."
+msgstr ""
+
+#: server/lib/data/media.data.class.php:154
+msgid "Error adding media."
+msgstr ""
+
+#: server/lib/data/media.data.class.php:180
+msgid "Unable to find media type"
+msgstr ""
+
+#: server/lib/data/media.data.class.php:316
+msgid "Error retiring media."
+msgstr ""
+
+#: server/lib/data/media.data.class.php:338
+msgid "This media is in use, please retire it instead."
+msgstr ""
+
+#: server/lib/data/media.data.class.php:347
+msgid "Cannot locate the files for this media. Unable to delete."
+msgstr ""
+
+#: server/lib/data/media.data.class.php:397
+msgid "Error deleting media."
+msgstr ""
+
+#: server/lib/data/media.data.class.php:485
+msgid "No module type given"
+msgstr ""
+
+#: server/lib/data/media.data.class.php:493
+msgid "No Module of this type found"
+msgstr ""
+
+#: server/lib/data/media.data.class.php:506
+msgid "Database error checking module"
+msgstr ""
+
+#: server/lib/data/media.data.class.php:587
+msgid "Error getting media extension before copy."
+msgstr ""
+
+#: server/lib/data/media.data.class.php:639
+msgid "Error copying media."
+msgstr ""
+
+#: server/lib/data/mediagroupsecurity.data.class.php:59
+msgid "Could not Link Media to Group"
+msgstr ""
+
+#: server/lib/data/mediagroupsecurity.data.class.php:132
+msgid "Could not Unlink Media from Group"
+msgstr ""
+
+#: server/lib/data/mediagroupsecurity.data.class.php:165
+msgid "Could not Unlink Media from Groups"
+msgstr ""
+
+#: server/lib/data/region.data.class.php:102
+msgid "Size and coordinates must be generic"
+msgstr ""
+
+#: server/lib/data/region.data.class.php:105
+#: server/lib/data/region.data.class.php:583
+msgid "Width must be greater than 0"
+msgstr ""
+
+#: server/lib/data/region.data.class.php:108
+#: server/lib/data/region.data.class.php:586
+msgid "Height must be greater than 0"
+msgstr ""
+
+#: server/lib/data/region.data.class.php:152
+msgid "No region ID provided, cannot delete"
+msgstr ""
+
+#: server/lib/data/region.data.class.php:316
+msgid "Database error updating this link record."
+msgstr ""
+
+#: server/lib/data/region.data.class.php:343
+msgid "Database error deleting this link record."
+msgstr ""
+
+#: server/lib/data/region.data.class.php:580
+msgid "Size and coordinates must be numeric"
+msgstr ""
+
+#: server/lib/data/region.data.class.php:990
+msgid ""
+"You have selected media that you no longer have permission to use. Please "
+"reload Library form."
+msgstr ""
+
+#: server/lib/data/region.data.class.php:999
+#: server/lib/service/rest.class.php:1037
+msgid "Error getting type from a media item."
+msgstr ""
+
+#: server/lib/data/resolution.data.class.php:38
+#: server/lib/data/resolution.data.class.php:82
+msgid "All fields must be filled in"
+msgstr ""
+
+#: server/lib/data/resolution.data.class.php:62
+msgid "Cannot add this resolution."
+msgstr ""
+
+#: server/lib/data/resolution.data.class.php:107
+msgid "Cannot edit this resolution."
+msgstr ""
+
+#: server/lib/data/resolution.data.class.php:135
+msgid "Cannot delete this resolution."
+msgstr ""
+
+#: server/lib/data/schedule.data.class.php:48
+msgid "No display groups selected"
+msgstr ""
+
+#: server/lib/data/schedule.data.class.php:51
+msgid "No User Id Present"
+msgstr ""
+
+#: server/lib/data/schedule.data.class.php:172
+msgid "Could not INSERT a new Schedule"
+msgstr ""
+
+#: server/lib/data/schedule.data.class.php:248
+msgid "Unable to delete schedule record for this Event."
+msgstr ""
+
+#: server/lib/data/schedule.data.class.php:316
+#: server/lib/data/schedule.data.class.php:351
+msgid "Could not update Layout on Schedule"
+msgstr ""
+
+#: server/lib/data/schedule.data.class.php:387
+msgid "Unable to delete schedule records for this Display Group."
+msgstr ""
+
+#: server/lib/data/schedule.data.class.php:445
+#: server/lib/data/schedule.data.class.php:510
+msgid "Unable to delete schedule records for this Event."
+msgstr ""
+
+#: server/lib/data/schedule.data.class.php:478
+msgid "Unable to delete schedule records for this Event and DisplayGroup."
+msgstr ""
+
+#: server/lib/data/schedule.data.class.php:531
+msgid "Error retriving information necessary to delete this event"
+msgstr ""
+
+#: server/lib/data/schedule.data.class.php:567
+msgid "Unable to edit the display groups for this Event."
+msgstr ""
+
+#: server/lib/data/setting.data.class.php:43
+msgid "Update of settings failed"
+msgstr ""
+
+#: server/lib/data/template.data.class.php:57
+#, php-format
+msgid "You already own a template called \"%s\". Please choose another name."
+msgstr ""
+
+#: server/lib/data/template.data.class.php:62
+msgid "Cannot get the Layout Structure."
+msgstr ""
+
+#: server/lib/data/template.data.class.php:122
+msgid "Unable to delete template"
+msgstr ""
+
+#: server/lib/data/templategroupsecurity.data.class.php:59
+msgid "Could not Link Template to Group"
+msgstr ""
+
+#: server/lib/data/templategroupsecurity.data.class.php:93
+msgid "Could not Unlink Template from Group"
+msgstr ""
+
+#: server/lib/data/templategroupsecurity.data.class.php:126
+msgid "Could not Unlink Template from Groups"
+msgstr ""
+
+#: server/lib/data/userdata.data.class.php:21
+msgid ""
+"Sorry, you are not allowed to directly access this page.<br /> Please press "
+"the back button in your browser."
+msgstr ""
+
+#: server/lib/data/userdata.data.class.php:52
+msgid "User not selected"
+msgstr ""
+
+#: server/lib/data/userdata.data.class.php:65
+#: server/lib/data/userdata.data.class.php:71
+msgid "Incorrect Password Provided"
+msgstr ""
+
+#: server/lib/data/userdata.data.class.php:76
+msgid "New Passwords do not match"
+msgstr ""
+
+#: server/lib/data/userdata.data.class.php:98
+msgid "Could not edit Password"
+msgstr ""
+
+#: server/lib/data/userdata.data.class.php:116
+msgid "Your password does not meet the required complexity"
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:41
+msgid "Group Name cannot be empty."
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:60
+msgid "Could not add User Group"
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:81
+msgid "User Group not selected"
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:84
+msgid "User Group Name cannot be empty."
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:101
+msgid "Could not edit User Group"
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:140
+msgid "Unable to delete User Group."
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:174
+msgid "Could not Link User Group to User"
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:208
+msgid "Could not Unlink User from User Group"
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:239
+msgid "Could not Unlink all Users from User Group"
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:270
+msgid "Could not Unlink Groups from User"
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:304
+msgid "Unable to get the UserGroup for this User."
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:316
+msgid "Could not add a user group for this user."
+msgstr ""
+
+#: server/lib/data/usergroup.data.class.php:320
+msgid "Could not link the new user with its group."
+msgstr ""
+
+#: server/lib/modules/module.class.php:128
+msgid ""
+"Unable to create Module [No type given] - please refer to the Module "
+"Documentation."
+msgstr ""
+
+#: server/lib/modules/module.class.php:133
+msgid ""
+"Unable to create Module [Cannot find type in the database] - please refer to "
+"the Module Documentation."
+msgstr ""
+
+#: server/lib/modules/module.class.php:136
+msgid ""
+"Unable to create Module [No registered modules of this type] - please refer "
+"to the Module Documentation."
+msgstr ""
+
+#: server/lib/modules/module.class.php:188
+msgid "Cannot find this media item. Please refresh the region options."
+msgstr ""
+
+#: server/lib/modules/module.class.php:248
+#: server/lib/modules/module.class.php:260
+msgid "Unable to find media record with the provided ID"
+msgstr ""
+
+#: server/lib/modules/module.class.php:415
+msgid "There is an error in the HTML/XML"
+msgstr ""
+
+#: server/lib/modules/module.class.php:463
+msgid "Unable to Remove this media from the Layout"
+msgstr ""
+
+#: server/lib/modules/module.class.php:473
+msgid "Unable to assign to the Region"
+msgstr ""
+
+#: server/lib/modules/module.class.php:481
+msgid "Error adding this media to the library"
+msgstr ""
+
+#: server/lib/modules/module.class.php:516
+msgid "Return to the Region Options"
+msgstr ""
+
+#: server/lib/modules/module.class.php:517
+msgid "Are you sure you want to remove this item?"
+msgstr ""
+
+#: server/lib/modules/module.class.php:518
+msgid "It will be lost"
+msgstr ""
+
+#: server/lib/modules/module.class.php:519
+#: server/lib/modules/module.class.php:533
+#: server/lib/modules/module.class.php:634
+#: server/lib/pages/campaign.class.php:285
+#: server/lib/pages/display.class.php:507
+#: server/lib/pages/display.class.php:645
+#: server/lib/pages/displaygroup.class.php:234
+#: server/lib/pages/group.class.php:344 server/lib/pages/help.class.php:256
+#: server/lib/pages/layout.class.php:272 server/lib/pages/log.class.php:228
+#: server/lib/pages/resolution.class.php:192
+#: server/lib/pages/schedule.class.php:1717
+#: server/lib/pages/schedule.class.php:1902
+#: server/lib/pages/sessions.class.php:156
+#: server/lib/pages/template.class.php:258
+#: server/lib/pages/timeline.class.php:334 server/lib/pages/user.class.php:574
+msgid "Yes"
+msgstr ""
+
+#: server/lib/modules/module.class.php:520
+#: server/lib/modules/module.class.php:532
+#: server/lib/modules/module.class.php:630
+#: server/lib/modules/module.class.php:632
+#: server/lib/pages/campaign.class.php:284
+#: server/lib/pages/display.class.php:506
+#: server/lib/pages/display.class.php:645
+#: server/lib/pages/displaygroup.class.php:233
+#: server/lib/pages/group.class.php:343 server/lib/pages/help.class.php:255
+#: server/lib/pages/layout.class.php:271 server/lib/pages/log.class.php:227
+#: server/lib/pages/resolution.class.php:191
+#: server/lib/pages/schedule.class.php:1716
+#: server/lib/pages/schedule.class.php:1901
+#: server/lib/pages/sessions.class.php:155
+#: server/lib/pages/template.class.php:257
+#: server/lib/pages/timeline.class.php:335 server/lib/pages/user.class.php:573
+msgid "No"
+msgstr ""
+
+#: server/lib/modules/module.class.php:541
+msgid "Unassign from this region only"
+msgstr ""
+
+#: server/lib/modules/module.class.php:556
+#: server/lib/modules/module.class.php:940
+msgid "Error querying for the Media information"
+msgstr ""
+
+#: server/lib/modules/module.class.php:561
+msgid "Unassign from this region and retire"
+msgstr ""
+
+#: server/lib/modules/module.class.php:583
+msgid "Cannot determine if this media has been used."
+msgstr ""
+
+#: server/lib/modules/module.class.php:590
+msgid "Delete this media"
+msgstr ""
+
+#: server/lib/modules/module.class.php:594
+msgid "Unassign from all Layouts"
+msgstr ""
+
+#: server/lib/modules/module.class.php:595
+msgid "Retire this media"
+msgstr ""
+
+#: server/lib/modules/module.class.php:603
+msgid "You do not have permission to alter/delete this media."
+msgstr ""
+
+#: server/lib/modules/module.class.php:613
+msgid "Are you sure you want to delete this media?"
+msgstr ""
+
+#: server/lib/modules/module.class.php:614
+msgid "Please select from the following options"
+msgstr ""
+
+#: server/lib/modules/module.class.php:615
+msgid "Deleting media cannot be undone"
+msgstr ""
+
+#: server/lib/modules/module.class.php:638
+msgid "Delete Media"
+msgstr ""
+
+#: server/lib/modules/module.class.php:711
+msgid "Completed Successfully"
+msgstr ""
+
+#: server/lib/modules/module.class.php:767
+msgid "Media unassigned from all Layouts"
+msgstr ""
+
+#: server/lib/modules/module.class.php:777
+#: server/lib/modules/module.class.php:895
+msgid "Not yet implemented by this module."
+msgstr ""
+
+#: server/lib/modules/module.class.php:780
+#: server/lib/modules/module.class.php:898
+msgid "Add Item"
+msgstr ""
+
+#: server/lib/modules/module.class.php:847
+msgid "Assign to Layout"
+msgstr ""
+
+#: server/lib/modules/module.class.php:848
+msgid "View Library"
+msgstr ""
+
+#: server/lib/modules/module.class.php:849
+#: server/lib/modules/module.class.php:853
+#: server/lib/modules/module.class.php:857
+#: server/lib/modules/module.class.php:864
+#: server/lib/pages/admin.class.php:588 server/lib/pages/admin.class.php:611
+#: server/lib/pages/content.class.php:209
+#: server/lib/pages/dataset.class.php:368
+#: server/lib/pages/display.class.php:660 server/lib/pages/group.class.php:249
+#: server/lib/pages/group.class.php:502 server/lib/pages/index.class.php:244
+#: server/lib/pages/oauth.class.php:131 server/lib/pages/oauth.class.php:287
+#: server/lib/pages/schedule.class.php:437
+#: server/lib/pages/timeline.class.php:827 server/lib/pages/user.class.php:665
+#: server/lib/pages/user.class.php:692 server/lib/pages/user.class.php:743
+msgid "Close"
+msgstr ""
+
+#: server/lib/modules/module.class.php:873
+#, php-format
+msgid "This form accepts: %s files up to a maximum size of %s"
+msgstr ""
+
+#: server/lib/modules/module.class.php:879
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: server/lib/modules/module.class.php:957
+#: server/lib/modules/module.class.php:961
+#: server/lib/modules/module.class.php:965
+#: server/lib/modules/module.class.php:1436
+#: server/lib/modules/module.class.php:1439
+#: server/lib/modules/module.class.php:1686
+#: server/lib/modules/module.class.php:1688
+#: server/lib/pages/admin.class.php:672
+#: server/lib/pages/campaign.class.php:145
+#: server/lib/pages/campaign.class.php:215
+#: server/lib/pages/campaign.class.php:389
+#: server/lib/pages/campaign.class.php:577
+#: server/lib/pages/content.class.php:259
+#: server/lib/pages/dataset.class.php:158
+#: server/lib/pages/dataset.class.php:221
+#: server/lib/pages/dataset.class.php:277
+#: server/lib/pages/dataset.class.php:399
+#: server/lib/pages/dataset.class.php:479
+#: server/lib/pages/dataset.class.php:544
+#: server/lib/pages/dataset.class.php:895
+#: server/lib/pages/dataset.class.php:1051
+#: server/lib/pages/display.class.php:279
+#: server/lib/pages/display.class.php:570
+#: server/lib/pages/display.class.php:759
+#: server/lib/pages/display.class.php:854
+#: server/lib/pages/displaygroup.class.php:157
+#: server/lib/pages/displaygroup.class.php:205
+#: server/lib/pages/displaygroup.class.php:310
+#: server/lib/pages/displaygroup.class.php:550
+#: server/lib/pages/displaygroup.class.php:711
+#: server/lib/pages/displaygroup.class.php:845
+#: server/lib/pages/group.class.php:225 server/lib/pages/group.class.php:699
+#: server/lib/pages/help.class.php:195 server/lib/pages/help.class.php:233
+#: server/lib/pages/layout.class.php:516 server/lib/pages/layout.class.php:603
+#: server/lib/pages/layout.class.php:804 server/lib/pages/module.class.php:202
+#: server/lib/pages/oauth.class.php:209
+#: server/lib/pages/resolution.class.php:125
+#: server/lib/pages/resolution.class.php:166
+#: server/lib/pages/schedule.class.php:1395
+#: server/lib/pages/schedule.class.php:1510
+#: server/lib/pages/schedule.class.php:1814
+#: server/lib/pages/template.class.php:155
+#: server/lib/pages/template.class.php:368
+#: server/lib/pages/timeline.class.php:190
+#: server/lib/pages/timeline.class.php:348
+#: server/lib/pages/timeline.class.php:548
+#: server/lib/pages/transition.class.php:164
+#: server/lib/pages/user.class.php:547 server/lib/pages/user.class.php:601
+#: server/modules/counter.module.php:60 server/modules/counter.module.php:64
+#: server/modules/counter.module.php:126 server/modules/counter.module.php:130
+#: server/modules/datasetview.module.php:65
+#: server/modules/datasetview.module.php:69
+#: server/modules/datasetview.module.php:185
+#: server/modules/datasetview.module.php:189
+#: server/modules/embedded.module.php:67 server/modules/embedded.module.php:71
+#: server/modules/embedded.module.php:136
+#: server/modules/embedded.module.php:140
+#: server/modules/localvideo.module.php:71
+#: server/modules/localvideo.module.php:75
+#: server/modules/localvideo.module.php:136
+#: server/modules/localvideo.module.php:140
+#: server/modules/microblog.module.php:62
+#: server/modules/microblog.module.php:66
+#: server/modules/microblog.module.php:143
+#: server/modules/microblog.module.php:147
+#: server/modules/shellcommand.module.php:55
+#: server/modules/shellcommand.module.php:59
+#: server/modules/shellcommand.module.php:101
+#: server/modules/shellcommand.module.php:105
+#: server/modules/text.module.php:77 server/modules/text.module.php:81
+#: server/modules/text.module.php:156 server/modules/text.module.php:160
+#: server/modules/ticker.module.php:66 server/modules/ticker.module.php:70
+#: server/modules/ticker.module.php:205 server/modules/ticker.module.php:209
+#: server/modules/webpage.module.php:67 server/modules/webpage.module.php:71
+#: server/modules/webpage.module.php:134 server/modules/webpage.module.php:138
+#: server/theme/default/html/library_form_media_add.php:95
+msgid "Cancel"
+msgstr ""
+
+#: server/lib/modules/module.class.php:968
+#: server/lib/modules/module.class.php:1442
+#: server/lib/modules/module.class.php:1691
+#: server/lib/pages/admin.class.php:168
+#: server/lib/pages/campaign.class.php:146
+#: server/lib/pages/campaign.class.php:216
+#: server/lib/pages/campaign.class.php:390
+#: server/lib/pages/campaign.class.php:578
+#: server/lib/pages/dataset.class.php:400
+#: server/lib/pages/dataset.class.php:480
+#: server/lib/pages/dataset.class.php:896
+#: server/lib/pages/display.class.php:280
+#: server/lib/pages/display.class.php:571
+#: server/lib/pages/display.class.php:760
+#: server/lib/pages/displaygroup.class.php:158
+#: server/lib/pages/displaygroup.class.php:206
+#: server/lib/pages/displaygroup.class.php:311
+#: server/lib/pages/displaygroup.class.php:551
+#: server/lib/pages/displaygroup.class.php:846
+#: server/lib/pages/group.class.php:226 server/lib/pages/group.class.php:700
+#: server/lib/pages/help.class.php:196 server/lib/pages/help.class.php:234
+#: server/lib/pages/layout.class.php:517 server/lib/pages/layout.class.php:604
+#: server/lib/pages/module.class.php:203
+#: server/lib/pages/resolution.class.php:126
+#: server/lib/pages/resolution.class.php:167
+#: server/lib/pages/schedule.class.php:1397
+#: server/lib/pages/schedule.class.php:1511
+#: server/lib/pages/schedule.class.php:1815
+#: server/lib/pages/template.class.php:156
+#: server/lib/pages/template.class.php:369
+#: server/lib/pages/timeline.class.php:191
+#: server/lib/pages/timeline.class.php:549
+#: server/lib/pages/transition.class.php:165
+#: server/lib/pages/user.class.php:548 server/lib/pages/user.class.php:602
+#: server/lib/pages/user.class.php:693 server/lib/pages/user.class.php:744
+#: server/modules/counter.module.php:70 server/modules/counter.module.php:136
+#: server/modules/datasetview.module.php:72
+#: server/modules/datasetview.module.php:192
+#: server/modules/embedded.module.php:79
+#: server/modules/embedded.module.php:148
+#: server/modules/localvideo.module.php:78
+#: server/modules/localvideo.module.php:143
+#: server/modules/microblog.module.php:69
+#: server/modules/microblog.module.php:150
+#: server/modules/shellcommand.module.php:61
+#: server/modules/shellcommand.module.php:108
+#: server/modules/text.module.php:83 server/modules/text.module.php:162
+#: server/modules/ticker.module.php:73 server/modules/ticker.module.php:212
+#: server/modules/webpage.module.php:73 server/modules/webpage.module.php:140
+#: server/theme/default/html/settings_page.php:37
+msgid "Save"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1006
+msgid "Add Media has not been implemented for this module."
+msgstr ""
+
+#: server/lib/modules/module.class.php:1053
+msgid "Unable to get the storage name"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1089
+msgid "Edit Media has not been implemented for this module."
+msgstr ""
+
+#: server/lib/modules/module.class.php:1332
+#: server/lib/pages/schedule.class.php:1200
+#: server/lib/pages/schedule.class.php:1323
+#: server/modules/ticker.module.php:458
+#: server/theme/default/html/displaygroup_fileassociations_form_assign.php:49
+#: server/theme/default/html/displaygroup_fileassociations_form_assign_list.php:27
+#: server/theme/default/html/display_form_mediainventory.php:34
+#: server/theme/default/html/display_form_version_instructions.php:40
+#: server/theme/default/html/homepage_mediamanager.php:54
+#: server/theme/default/html/homepage_mediamanager_grid.php:41
+#: server/theme/default/html/library_form_assign.php:47
+#: server/theme/default/html/library_form_assign_list.php:27
+#: server/theme/default/html/library_page.php:56
+#: server/theme/default/html/library_page_grid.php:43
+#: server/theme/default/html/log_page.php:49
+#: server/theme/default/html/sessions_page.php:47
+msgid "Type"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1333
+#: server/lib/pages/schedule.class.php:462
+#: server/lib/pages/schedule.class.php:1199
+#: server/lib/pages/schedule.class.php:1322
+#: server/modules/ticker.module.php:457
+#: server/theme/default/html/campaign_form_add.php:31
+#: server/theme/default/html/campaign_form_edit.php:32
+#: server/theme/default/html/campaign_form_layout_assign.php:47
+#: server/theme/default/html/campaign_form_layout_assign_list.php:27
+#: server/theme/default/html/campaign_page_grid.php:35
+#: server/theme/default/html/dataset_form_add.php:33
+#: server/theme/default/html/dataset_form_edit.php:33
+#: server/theme/default/html/dataset_page_grid.php:36
+#: server/theme/default/html/displaygroup_fileassociations_form_assign.php:47
+#: server/theme/default/html/displaygroup_fileassociations_form_assign_list.php:26
+#: server/theme/default/html/displaygroup_form_add.php:31
+#: server/theme/default/html/displaygroup_form_edit.php:33
+#: server/theme/default/html/displaygroup_page_grid.php:35
+#: server/theme/default/html/display_page.php:46
+#: server/theme/default/html/layout_form_add.php:32
+#: server/theme/default/html/layout_form_edit.php:37
+#: server/theme/default/html/layout_page.php:54
+#: server/theme/default/html/layout_page_grid.php:38
+#: server/theme/default/html/library_form_assign.php:45
+#: server/theme/default/html/library_form_assign_list.php:26
+#: server/theme/default/html/library_form_media_add.php:71
+#: server/theme/default/html/library_form_media_edit.php:43
+#: server/theme/default/html/library_page.php:48
+#: server/theme/default/html/library_page_grid.php:42
+#: server/theme/default/html/media_form_embedded_add.php:37
+#: server/theme/default/html/media_form_embedded_edit.php:37
+#: server/theme/default/html/media_form_ticker_edit.php:38
+#: server/theme/default/html/module_page_grid.php:40
+#: server/theme/default/html/region_form_options.php:32
+#: server/theme/default/html/region_form_options_no_transition.php:32
+#: server/theme/default/html/schedule_page.php:42
+#: server/theme/default/html/template_form_add.php:32
+#: server/theme/default/html/template_page.php:48
+#: server/theme/default/html/template_page_grid.php:35
+#: server/theme/default/html/transition_page_grid.php:35
+#: server/theme/default/html/usergroup_form_add.php:31
+#: server/theme/default/html/usergroup_form_edit.php:31
+#: server/theme/default/html/usergroup_form_pagesecurity.php:35
+#: server/theme/default/html/usergroup_page.php:50
+#: server/theme/default/html/user_page.php:51
+#: server/theme/default/html/user_page_grid.php:36
+msgid "Name"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1334
+#: server/modules/localvideo.module.php:48
+#: server/modules/localvideo.module.php:112
+#: server/modules/ticker.module.php:460
+#: server/theme/default/html/library_form_assign_list.php:28
+#: server/theme/default/html/library_form_media_add.php:77
+#: server/theme/default/html/library_form_media_edit.php:49
+#: server/theme/default/html/library_page_grid.php:44
+#: server/theme/default/html/media_form_counter_add.php:30
+#: server/theme/default/html/media_form_counter_edit.php:30
+#: server/theme/default/html/media_form_datasetview_add.php:35
+#: server/theme/default/html/media_form_datasetview_edit.php:32
+#: server/theme/default/html/media_form_embedded_add.php:31
+#: server/theme/default/html/media_form_embedded_edit.php:31
+#: server/theme/default/html/media_form_microblog_add.php:63
+#: server/theme/default/html/media_form_microblog_edit.php:63
+#: server/theme/default/html/media_form_text_add.php:46
+#: server/theme/default/html/media_form_text_edit.php:46
+#: server/theme/default/html/media_form_ticker_add.php:51
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:44
+#: server/theme/default/html/media_form_ticker_edit.php:83
+#: server/theme/default/html/media_form_webpage_add.php:36
+#: server/theme/default/html/media_form_webpage_edit.php:36
+#: server/theme/default/html/schedule_form_schedule_now.php:34
+msgid "Duration"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1346
+#: server/modules/ticker.module.php:479
+msgid "seconds"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1370
+msgid "You do not have permissions to edit this media"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1379
+#: server/lib/pages/schedule.class.php:477
+#: server/lib/pages/schedule.class.php:1337
+#: server/lib/pages/timeline.class.php:504
+#: server/theme/default/html/campaign_form_permissions.php:39
+#: server/theme/default/html/dataset_form_permissions.php:39
+#: server/theme/default/html/displaygroup_form_permissions.php:39
+#: server/theme/default/html/display_page.php:47
+#: server/theme/default/html/template_form_permissions.php:39
+msgid "Group"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1380
+#: server/lib/pages/timeline.class.php:505
+#: server/theme/default/html/campaign_form_permissions.php:40
+#: server/theme/default/html/dataset_form_permissions.php:40
+#: server/theme/default/html/displaygroup_form_permissions.php:40
+#: server/theme/default/html/template_form_permissions.php:40
+msgid "View"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1381
+#: server/lib/pages/campaign.class.php:93
+#: server/lib/pages/content.class.php:127
+#: server/lib/pages/dataset.class.php:102
+#: server/lib/pages/dataset.class.php:222
+#: server/lib/pages/dataset.class.php:347
+#: server/lib/pages/display.class.php:367
+#: server/lib/pages/displaygroup.class.php:91
+#: server/lib/pages/group.class.php:144 server/lib/pages/help.class.php:153
+#: server/lib/pages/layout.class.php:425
+#: server/lib/pages/mediamanager.class.php:158
+#: server/lib/pages/module.class.php:135
+#: server/lib/pages/resolution.class.php:87
+#: server/lib/pages/schedule.class.php:482
+#: server/lib/pages/timeline.class.php:506
+#: server/lib/pages/timeline.class.php:765
+#: server/lib/pages/transition.class.php:107
+#: server/lib/pages/user.class.php:144
+#: server/theme/default/html/campaign_form_permissions.php:41
+#: server/theme/default/html/dataset_form_permissions.php:41
+#: server/theme/default/html/displaygroup_form_permissions.php:41
+#: server/theme/default/html/template_form_permissions.php:41
+msgid "Edit"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1382
+#: server/lib/pages/campaign.class.php:103
+#: server/lib/pages/content.class.php:137
+#: server/lib/pages/dataset.class.php:119
+#: server/lib/pages/dataset.class.php:278
+#: server/lib/pages/dataset.class.php:355
+#: server/lib/pages/dataset.class.php:545
+#: server/lib/pages/display.class.php:398
+#: server/lib/pages/displaygroup.class.php:108
+#: server/lib/pages/group.class.php:151 server/lib/pages/help.class.php:160
+#: server/lib/pages/layout.class.php:441 server/lib/pages/layout.class.php:749
+#: server/lib/pages/resolution.class.php:94
+#: server/lib/pages/schedule.class.php:482
+#: server/lib/pages/schedule.class.php:1509
+#: server/lib/pages/template.class.php:112
+#: server/lib/pages/timeline.class.php:349
+#: server/lib/pages/timeline.class.php:507
+#: server/lib/pages/timeline.class.php:768 server/lib/pages/user.class.php:151
+#: server/theme/default/html/campaign_form_permissions.php:42
+#: server/theme/default/html/dataset_form_permissions.php:42
+#: server/theme/default/html/displaygroup_form_permissions.php:42
+#: server/theme/default/html/template_form_permissions.php:42
+msgid "Delete"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1413
+msgid "Unable to get permissions for this layout"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1432
+#: server/lib/pages/campaign.class.php:113
+#: server/lib/pages/campaign.class.php:387
+#: server/lib/pages/content.class.php:147
+#: server/lib/pages/dataset.class.php:129
+#: server/lib/pages/dataset.class.php:893
+#: server/lib/pages/display.class.php:415
+#: server/lib/pages/displaygroup.class.php:118
+#: server/lib/pages/displaygroup.class.php:548
+#: server/lib/pages/layout.class.php:451 server/lib/pages/layout.class.php:750
+#: server/lib/pages/template.class.php:122
+#: server/lib/pages/template.class.php:366
+#: server/lib/pages/timeline.class.php:546
+#: server/lib/pages/timeline.class.php:771
+#: server/theme/default/html/dataset_page_grid.php:39
+#: server/theme/default/html/layout_page_grid.php:41
+#: server/theme/default/html/library_page_grid.php:47
+#: server/theme/default/html/template_page_grid.php:39
+msgid "Permissions"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1465
+#: server/lib/pages/layout.class.php:65 server/lib/pages/layout.class.php:533
+#: server/lib/pages/layout.class.php:628
+msgid "You do not have permissions to edit this layout"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1554
+#: server/lib/pages/campaign.class.php:475
+#: server/lib/pages/dataset.class.php:981
+#: server/lib/pages/displaygroup.class.php:638
+#: server/lib/pages/template.class.php:459
+#: server/lib/pages/timeline.class.php:634
+msgid "Permissions Changed"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1627
+#: server/lib/modules/module.class.php:1739
+#: server/lib/modules/module.class.php:1772
+msgid "Unknown transition type"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1639
+#: server/lib/pages/timeline.class.php:169
+msgid "North"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1640
+#: server/lib/pages/timeline.class.php:170
+msgid "North East"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1641
+#: server/lib/pages/timeline.class.php:171
+msgid "East"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1642
+#: server/lib/pages/timeline.class.php:172
+msgid "South East"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1643
+#: server/lib/pages/timeline.class.php:173
+msgid "South"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1644
+#: server/lib/pages/timeline.class.php:174
+msgid "South West"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1645
+#: server/lib/pages/timeline.class.php:175
+msgid "West"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1646
+#: server/lib/pages/timeline.class.php:176
+msgid "North West"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1653
+msgid "What transition should be applied to this media item?"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1654
+#: server/theme/default/html/region_form_options.php:56
+msgid "The duration for this transition, in milliseconds."
+msgstr ""
+
+#: server/lib/modules/module.class.php:1655
+msgid "The direction for this transition."
+msgstr ""
+
+#: server/lib/modules/module.class.php:1776
+#: server/lib/pages/schedule.class.php:1385
+#: server/lib/pages/schedule.class.php:1496 server/modules/text.module.php:52
+#: server/modules/text.module.php:130 server/modules/ticker.module.php:132
+#: server/modules/webpage.module.php:51 server/modules/webpage.module.php:108
+msgid "None"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1793
+msgid "No XLF provided"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1801
+msgid "Invalid XLF"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1829
+msgid "Too many media nodes"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1836
+msgid "SchemaVersion does not match"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1840
+msgid "Media Type does not match"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1849
+#, php-format
+msgid "ID does not match [%s vs %s]"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1853
+msgid "UserId does not match"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1868
+msgid "ID does not match"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1880
+msgid "Duration not provided or not a number"
+msgstr ""
+
+#: server/lib/modules/module.class.php:1883
+msgid "Cannot be less than zero"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:54 server/lib/pages/campaign.class.php:157
+#: server/lib/pages/campaign.class.php:227
+#: server/lib/pages/campaign.class.php:296
+#: server/lib/pages/campaign.class.php:398
+#: server/lib/pages/campaign.class.php:487
+#: server/lib/pages/dataset.class.php:170
+#: server/lib/pages/dataset.class.php:230
+#: server/lib/pages/dataset.class.php:286
+#: server/lib/pages/dataset.class.php:408
+#: server/lib/pages/dataset.class.php:488
+#: server/lib/pages/dataset.class.php:553
+#: server/lib/pages/dataset.class.php:904
+#: server/lib/pages/display.class.php:176
+#: server/lib/pages/display.class.php:518
+#: server/lib/pages/display.class.php:582
+#: server/lib/pages/display.class.php:866
+#: server/lib/pages/displaygroup.class.php:323
+#: server/lib/pages/displaygroup.class.php:356
+#: server/lib/pages/displaygroup.class.php:390
+#: server/lib/pages/displaygroup.class.php:562
+#: server/lib/pages/group.class.php:358 server/lib/pages/group.class.php:382
+#: server/lib/pages/group.class.php:407 server/lib/pages/group.class.php:590
+#: server/lib/pages/help.class.php:267 server/lib/pages/help.class.php:294
+#: server/lib/pages/help.class.php:319 server/lib/pages/index.class.php:53
+#: server/lib/pages/layout.class.php:174 server/lib/pages/layout.class.php:205
+#: server/lib/pages/layout.class.php:283 server/lib/pages/layout.class.php:309
+#: server/lib/pages/layout.class.php:615 server/lib/pages/layout.class.php:816
+#: server/lib/pages/log.class.php:239 server/lib/pages/module.class.php:211
+#: server/lib/pages/oauth.class.php:221
+#: server/lib/pages/resolution.class.php:200
+#: server/lib/pages/resolution.class.php:224
+#: server/lib/pages/resolution.class.php:249
+#: server/lib/pages/schedule.class.php:1525
+#: server/lib/pages/schedule.class.php:1607
+#: server/lib/pages/schedule.class.php:1730
+#: server/lib/pages/schedule.class.php:1823
+#: server/lib/pages/schedule.class.php:1914
+#: server/lib/pages/sessions.class.php:168
+#: server/lib/pages/template.class.php:168
+#: server/lib/pages/template.class.php:199
+#: server/lib/pages/template.class.php:380
+#: server/lib/pages/timeline.class.php:200
+#: server/lib/pages/transition.class.php:176
+#: server/lib/pages/user.class.php:210 server/lib/pages/user.class.php:300
+#: server/lib/pages/user.class.php:373 server/lib/pages/user.class.php:614
+#: server/lib/pages/user.class.php:704 server/lib/pages/user.class.php:755
+msgid "Sorry the form has expired. Please refresh."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:66
+msgid "Only admin users are allowed to modify settings"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:76 server/lib/pages/admin.class.php:81
+msgid "Cannot find the Library Location Setting - this is serious."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:108
+msgid "The Library Location you have picked is not writable"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:117
+msgid "Update of settings failed."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:122
+msgid "Settings Updated"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:146
+msgid "Can't get the setting catagories"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:169
+msgid "Categories"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:199 server/locale/dbtranslate.php:37
+#: server/locale/dbtranslate.php:42
+msgid "Settings"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:213 server/lib/pages/admin.class.php:296
+#: server/lib/pages/admin.class.php:329 server/lib/pages/admin.class.php:370
+msgid "Can not get settings"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:260
+#, php-format
+msgid "You have %s of media in the library."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:260 server/lib/pages/admin.class.php:273
+#, php-format
+msgid " This is %d %% of your %s limit."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:273
+#, php-format
+msgid "You have used %s of bandwidth this month."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:278
+msgid "Import / Export Database"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:281 server/lib/pages/admin.class.php:673
+#: server/lib/pages/dataset.class.php:1052
+msgid "Import"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:283
+#: server/theme/default/html/stats_page_grid.php:29
+msgid "Export"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:286
+msgid "Tidy Library"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:314
+msgid "Test Email"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:492
+msgid "Cannot set debug to On"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:497
+msgid "Cannot set audit to On"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:500
+msgid "Debugging switched On."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:516
+msgid "Cannot set debug to Off"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:521
+msgid "Cannot set audit to Off"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:524
+msgid "Debugging switched Off."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:540 server/lib/pages/admin.class.php:559
+msgid "Cannot switch modes."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:543
+msgid "Server switched to Production Mode"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:562
+msgid "Server switched to Test Mode"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:572 server/lib/pages/admin.class.php:589
+msgid "Email Test"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:573
+msgid "Test email sent"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:576
+#, php-format
+msgid "Sending test email to %s."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:581
+msgid "Mail sent OK"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:585
+msgid "Mail sending FAILED"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:602
+msgid "Only an adminitrator can export a database"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:605
+msgid ""
+"This will create a dump file of your database that you can restore later "
+"using the import functionality."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:606
+msgid "You should also manually take a backup of your library."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:607 server/lib/pages/admin.class.php:654
+msgid ""
+"Please note: The folder location for mysqldump must be available in your "
+"path environment variable for this to work and the php \"exec\" command must "
+"be enabled."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:608
+msgid "Export Database. Right click to save as."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:608
+msgid "Click here to Export"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:610
+msgid "Export Database Backup"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:627
+msgid "Unable to export database"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:645 server/lib/pages/admin.class.php:685
+#: server/lib/pages/admin.class.php:758
+msgid "Sorry this function is disabled."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:649
+msgid "Only an adminitrator can import a database"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:651
+msgid "Backup File"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:652
+msgid ""
+"Warning: Importing a file here will overwrite your existing database. This "
+"action cannot be reversed."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:653
+msgid ""
+"Select a file to import and then click the import button below. You will be "
+"taken to another page where the file will be imported."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:671
+msgid "Import Database Backup"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:716
+msgid "Not a valid uploaded file"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:720
+msgid "Unable to upload file"
+msgstr ""
+
+#: server/lib/pages/admin.class.php:724
+msgid "Database Restored. Click here to continue."
+msgstr ""
+
+#: server/lib/pages/admin.class.php:812
+msgid "Library Tidy Complete"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:62
+msgid "Unable to get list of campaigns"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:76
+#: server/lib/pages/display.class.php:344
+#: server/lib/pages/layout.class.php:402
+#: server/lib/pages/schedule.class.php:1812
+#: server/theme/default/html/layout_designer.php:49
+msgid "Schedule Now"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:86 server/locale/dbtranslate.php:39
+msgid "Layouts"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:143
+#: server/theme/default/html/campaign_page.php:37
+msgid "Add Campaign"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:170
+msgid "Campaign Added"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:188
+#: server/lib/pages/campaign.class.php:238
+#: server/lib/pages/campaign.class.php:500
+msgid "You do not have permission to edit this campaign"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:200
+msgid "Error getting Campaign"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:213
+msgid "Edit Campaign"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:242
+#: server/lib/pages/campaign.class.php:310
+msgid "Campaign ID is missing"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:245
+msgid "Name is a required field."
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:253
+msgid "Campaign Edited"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:273
+#: server/lib/pages/campaign.class.php:306
+msgid "You do not have permission to delete this campaign"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:282
+msgid "Delete Campaign"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:318
+msgid "Campaign Deleted"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:337
+#: server/lib/pages/campaign.class.php:410
+msgid "You do not have permissions to edit this campaign"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:358
+msgid "Unable to get permissions for this Campaign"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:513
+msgid ""
+"Your permissions to view a layout you are adding have been revoked. Please "
+"reload the Layouts form."
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:520
+msgid "Layouts Added to Campaign"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:557
+msgid "Error getting Layouts"
+msgstr ""
+
+#: server/lib/pages/campaign.class.php:574
+msgid "Layouts on Campaign"
+msgstr ""
+
+#: server/lib/pages/clock.class.php:50
+msgid "System Information"
+msgstr ""
+
+#: server/lib/pages/clock.class.php:52
+msgid "Local Time"
+msgstr ""
+
+#: server/lib/pages/clock.class.php:53
+msgid "System Time"
+msgstr ""
+
+#: server/lib/pages/clock.class.php:54
+msgid "Local Date"
+msgstr ""
+
+#: server/lib/pages/clock.class.php:55
+msgid "System Date"
+msgstr ""
+
+#: server/lib/pages/clock.class.php:58 server/lib/pages/clock.class.php:74
+msgid "Date / Time Information"
+msgstr ""
+
+#: server/lib/pages/content.class.php:155
+msgid "Download"
+msgstr ""
+
+#: server/lib/pages/content.class.php:192
+#: server/lib/pages/dataset.class.php:159
+msgid "Add"
+msgstr ""
+
+#: server/lib/pages/content.class.php:204
+msgid "Add Media to the Library"
+msgstr ""
+
+#: server/lib/pages/content.class.php:256
+msgid "Assign an item from the Library"
+msgstr ""
+
+#: server/lib/pages/content.class.php:260
+#: server/lib/pages/displaygroup.class.php:712
+msgid "Assign"
+msgstr ""
+
+#: server/lib/pages/content.class.php:397
+msgid "Unable to get group information for media"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:88
+msgid "View Data"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:95
+msgid "View Columns"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:109
+msgid "Import CSV"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:156
+#: server/theme/default/html/dataset_page.php:36
+msgid "Add DataSet"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:187
+msgid "DataSet Added"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:201
+#: server/lib/pages/dataset.class.php:240
+#: server/lib/pages/dataset.class.php:266
+#: server/lib/pages/dataset.class.php:296
+#: server/lib/pages/dataset.class.php:317
+#: server/lib/pages/dataset.class.php:384
+#: server/lib/pages/dataset.class.php:419
+#: server/lib/pages/dataset.class.php:451
+#: server/lib/pages/dataset.class.php:499
+#: server/lib/pages/dataset.class.php:531
+#: server/lib/pages/dataset.class.php:564
+#: server/lib/pages/dataset.class.php:589
+#: server/lib/pages/dataset.class.php:751
+#: server/lib/pages/dataset.class.php:778
+#: server/lib/pages/dataset.class.php:995
+#: server/lib/pages/dataset.class.php:1066
+msgid "Access Denied"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:207
+msgid "Unable to get DataSet information"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:219
+msgid "Edit DataSet"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:249
+msgid "DataSet Edited"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:275
+msgid "Delete this DataSet?"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:302
+msgid "DataSet Deleted"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:366
+#, php-format
+msgid "Columns for %s"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:369
+#: server/lib/pages/dataset.class.php:397
+msgid "Add Column"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:432
+msgid "Column Added"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:462
+msgid "Unabled to get Data Column information"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:477
+msgid "Edit Column"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:513
+msgid "Column Edited"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:542
+msgid "Delete this Column?"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:572
+msgid "Column Deleted"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:604
+msgid "Unable to find the number of data points"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:617
+msgid "Unable to find the column headings"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:668
+msgid "Can not get the data row/column"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:757
+msgid "Data Added"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:786
+msgid "Data Deleted"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:795
+msgid "Data Edited"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:825
+msgid "Unable to get group information for dataset"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:853
+#: server/lib/pages/dataset.class.php:917
+msgid "You do not have permissions to edit this dataset"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:865
+msgid "Unable to get permissions for this dataset"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:1029
+#: server/lib/pages/dataset.class.php:1100
+msgid "Error getting list of dataSetColumns"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:1049
+msgid "CSV Import"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:1072
+msgid "Please ensure you have picked a file and it has finished uploading"
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:1081
+msgid "Files with a CSV extension only."
+msgstr ""
+
+#: server/lib/pages/dataset.class.php:1120
+msgid "CSV File Imported"
+msgstr ""
+
+#: server/lib/pages/display.class.php:71
+msgid "You do not have permissions to edit this display"
+msgstr ""
+
+#: server/lib/pages/display.class.php:105
+msgid "Can not get the display information for display"
+msgstr ""
+
+#: server/lib/pages/display.class.php:185
+#: server/lib/pages/display.class.php:237
+#: server/lib/pages/display.class.php:496
+#: server/lib/pages/display.class.php:526
+#: server/lib/pages/display.class.php:552
+#: server/lib/pages/display.class.php:593
+msgid "You do not have permission to edit this display"
+msgstr ""
+
+#: server/lib/pages/display.class.php:206
+msgid "Can not have a display without a name"
+msgstr ""
+
+#: server/lib/pages/display.class.php:209
+msgid ""
+"Wake on Lan is enabled, but you have not specified a time to wake the display"
+msgstr ""
+
+#: server/lib/pages/display.class.php:218
+#: server/lib/pages/display.class.php:598
+msgid "Display Saved."
+msgstr ""
+
+#: server/lib/pages/display.class.php:276
+msgid "Edit a Display"
+msgstr ""
+
+#: server/lib/pages/display.class.php:310
+msgid "Unable to get list of displays"
+msgstr ""
+
+#: server/lib/pages/display.class.php:351
+#: server/lib/pages/display.class.php:658
+msgid "Media Inventory"
+msgstr ""
+
+#: server/lib/pages/display.class.php:360
+#: server/theme/default/html/display_form_default_layout.php:32
+#: server/theme/default/html/display_form_edit.php:58
+#: server/theme/default/html/display_page_grid.php:47
+msgid "Default Layout"
+msgstr ""
+
+#: server/lib/pages/display.class.php:374
+msgid "Wake on LAN"
+msgstr ""
+
+#: server/lib/pages/display.class.php:381
+#: server/lib/pages/displaygroup.class.php:98
+msgid "Assign Files"
+msgstr ""
+
+#: server/lib/pages/display.class.php:388
+msgid "Last 100 Log Messages"
+msgstr ""
+
+#: server/lib/pages/display.class.php:408 server/locale/dbtranslate.php:46
+msgid "Display Groups"
+msgstr ""
+
+#: server/lib/pages/display.class.php:422
+#: server/lib/pages/displaygroup.class.php:125
+msgid "Version Information"
+msgstr ""
+
+#: server/lib/pages/display.class.php:504
+msgid "Delete this Display?"
+msgstr ""
+
+#: server/lib/pages/display.class.php:529
+msgid "No Display selected for Deletion."
+msgstr ""
+
+#: server/lib/pages/display.class.php:536
+msgid "The Display has been Deleted"
+msgstr ""
+
+#: server/lib/pages/display.class.php:557
+msgid "Unable to get the default layout"
+msgstr ""
+
+#: server/lib/pages/display.class.php:568
+msgid "Edit Default Layout"
+msgstr ""
+
+#: server/lib/pages/display.class.php:596
+msgid "Cannot Edit this Display"
+msgstr ""
+
+#: server/lib/pages/display.class.php:613
+msgid "You do not have permission to view this display"
+msgstr ""
+
+#: server/lib/pages/display.class.php:616
+msgid "No DisplayId Given"
+msgstr ""
+
+#: server/lib/pages/display.class.php:625
+msgid "Unable to get the Inventory for this Display"
+msgstr ""
+
+#: server/lib/pages/display.class.php:632
+msgid "Invalid Media Inventory"
+msgstr ""
+
+#: server/lib/pages/display.class.php:678
+msgid "Unable to determine permissions"
+msgstr ""
+
+#: server/lib/pages/display.class.php:696
+msgid "You do not have permission to change Display Groups on this display"
+msgstr ""
+
+#: server/lib/pages/display.class.php:723
+#: server/lib/pages/display.class.php:749
+#: server/lib/pages/display.class.php:791
+msgid "Error getting Display Groups"
+msgstr ""
+
+#: server/lib/pages/display.class.php:757
+#: server/lib/pages/displaygroup.class.php:308
+#: server/lib/pages/group.class.php:697
+msgid "Manage Membership"
+msgstr ""
+
+#: server/lib/pages/display.class.php:826
+#: server/lib/pages/displaygroup.class.php:479
+#: server/lib/pages/group.class.php:765
+msgid "Group membership set"
+msgstr ""
+
+#: server/lib/pages/display.class.php:853
+msgid "Wake On Lan"
+msgstr ""
+
+#: server/lib/pages/display.class.php:855
+msgid "Send"
+msgstr ""
+
+#: server/lib/pages/display.class.php:877
+msgid "Wake on Lan command sent."
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:67
+msgid "Cannot get list of display groups."
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:84
+msgid "Group Members"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:155
+#: server/theme/default/html/displaygroup_page.php:37
+msgid "Add Display Group"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:177
+#: server/lib/pages/displaygroup.class.php:222
+#: server/lib/pages/displaygroup.class.php:368
+#: server/lib/pages/displaygroup.class.php:400
+#: server/lib/pages/displaygroup.class.php:431
+#: server/lib/pages/displaygroup.class.php:649
+#: server/lib/pages/displaygroup.class.php:786
+#: server/lib/pages/displaygroup.class.php:863
+msgid "You do not have permission to edit this display group"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:186
+msgid "Error getting Display Group"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:191
+msgid "No display group found."
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:203
+msgid "Edit Display Group"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:231
+msgid "Delete Display Group"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:270
+#: server/lib/pages/displaygroup.class.php:290
+#: server/lib/pages/displaygroup.class.php:444
+msgid "Error getting Displays"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:344
+msgid "Display Group Added"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:378
+msgid "Display Group Edited"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:410
+msgid "Display Group Deleted"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:498
+#: server/lib/pages/displaygroup.class.php:574
+msgid "You do not have permissions to edit this display group"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:519
+msgid "Unable to get permissions for this DisplayGroup"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:692
+#: server/lib/pages/displaygroup.class.php:744
+msgid "Unable to get existing assignments."
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:708
+msgid "Associate an item from the Library"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:781
+msgid "Display Group not selected"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:795
+#: server/lib/pages/timeline.class.php:391
+#, php-format
+msgid "%d Media Items Assigned"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:812
+msgid "Unknown Display"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:817
+msgid "No displays in this group"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:844
+msgid "Set Instructions for Upgrading this client"
+msgstr ""
+
+#: server/lib/pages/displaygroup.class.php:890
+msgid "Version Instructions Set"
+msgstr ""
+
+#: server/lib/pages/error.class.php:41
+msgid "Application Error"
+msgstr ""
+
+#: server/lib/pages/error.class.php:51
+msgid "There has been an application error."
+msgstr ""
+
+#: server/lib/pages/group.class.php:58
+msgid "Can not get Group information."
+msgstr ""
+
+#: server/lib/pages/group.class.php:125
+msgid "Can not get group information."
+msgstr ""
+
+#: server/lib/pages/group.class.php:158
+msgid "Members"
+msgstr ""
+
+#: server/lib/pages/group.class.php:165 server/lib/pages/group.class.php:247
+#: server/lib/pages/user.class.php:158
+msgid "Page Security"
+msgstr ""
+
+#: server/lib/pages/group.class.php:172 server/lib/pages/user.class.php:165
+msgid "Menu Security"
+msgstr ""
+
+#: server/lib/pages/group.class.php:250 server/lib/pages/group.class.php:503
+msgid "Assign / Unassign"
+msgstr ""
+
+#: server/lib/pages/group.class.php:289
+msgid "Can't get this groups information"
+msgstr ""
+
+#: server/lib/pages/group.class.php:341
+msgid "Delete Group"
+msgstr ""
+
+#: server/lib/pages/group.class.php:370
+msgid "User Group Added"
+msgstr ""
+
+#: server/lib/pages/group.class.php:395
+msgid "User Group Edited"
+msgstr ""
+
+#: server/lib/pages/group.class.php:418
+msgid "User Group Deleted"
+msgstr ""
+
+#: server/lib/pages/group.class.php:444 server/lib/pages/group.class.php:459
+msgid "Can't assign this page to this group"
+msgstr ""
+
+#: server/lib/pages/group.class.php:470
+msgid "Can't remove this page from this group"
+msgstr ""
+
+#: server/lib/pages/group.class.php:477
+msgid "User Group Page Security Edited"
+msgstr ""
+
+#: server/lib/pages/group.class.php:500
+msgid "Menu Item Security"
+msgstr ""
+
+#: server/lib/pages/group.class.php:549 server/lib/pages/group.class.php:554
+msgid "Cannot get the menu items for this Group."
+msgstr ""
+
+#: server/lib/pages/group.class.php:612
+msgid "Can't assign this menu item to this group"
+msgstr ""
+
+#: server/lib/pages/group.class.php:623
+msgid "Can't remove this menu item from this group"
+msgstr ""
+
+#: server/lib/pages/group.class.php:630
+msgid "User Group Menu Security Edited"
+msgstr ""
+
+#: server/lib/pages/group.class.php:666 server/lib/pages/group.class.php:690
+msgid "Error getting users"
+msgstr ""
+
+#: server/lib/pages/group.class.php:730
+msgid "Error getting Users"
+msgstr ""
+
+#: server/lib/pages/help.class.php:83 server/lib/pages/help.class.php:218
+msgid "Error getting Help Link"
+msgstr ""
+
+#: server/lib/pages/help.class.php:96
+#, php-format
+msgid "No help file found for Topic %s and Category %s."
+msgstr ""
+
+#: server/lib/pages/help.class.php:101
+msgid "You must specify a help page."
+msgstr ""
+
+#: server/lib/pages/help.class.php:132
+msgid "Error getting list of helplinks"
+msgstr ""
+
+#: server/lib/pages/help.class.php:167
+msgid "Test"
+msgstr ""
+
+#: server/lib/pages/help.class.php:194
+#: server/theme/default/html/help_page.php:36
+msgid "Add Help Link"
+msgstr ""
+
+#: server/lib/pages/help.class.php:232
+msgid "Edit Help Link"
+msgstr ""
+
+#: server/lib/pages/help.class.php:254
+msgid "Delete Help Link"
+msgstr ""
+
+#: server/lib/pages/help.class.php:283
+msgid "Help Link Added"
+msgstr ""
+
+#: server/lib/pages/help.class.php:311
+msgid "Help Link Edited"
+msgstr ""
+
+#: server/lib/pages/help.class.php:333
+msgid "Help Link Deleted"
+msgstr ""
+
+#: server/lib/pages/index.class.php:243
+#: server/theme/default/html/header.php:71
+#: server/theme/default/html/login_page.php:87
+msgid "About"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:75 server/lib/pages/preview.class.php:64
+msgid ""
+"Cannot retrieve the Information relating to this layout. The layout may be "
+"corrupt."
+msgstr ""
+
+#: server/lib/pages/layout.class.php:152
+msgid "Save Position"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:192 server/lib/pages/layout.class.php:223
+msgid "Layout Details Changed."
+msgstr ""
+
+#: server/lib/pages/layout.class.php:235 server/lib/pages/layout.class.php:290
+#: server/lib/pages/layout.class.php:317
+msgid "You do not have permissions to delete this layout"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:248
+msgid "Can not get layout information"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:269
+msgid "Delete Layout"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:297
+msgid "The Layout has been Deleted"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:325
+msgid "The Layout has been Retired"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:362
+msgid "Unable to get layouts for user"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:379 server/lib/pages/layout.class.php:965
+msgid "This Layout is ready to play"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:383 server/lib/pages/layout.class.php:969
+msgid "There are items on this Layout that can only be assessed by the client"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:387 server/lib/pages/layout.class.php:973
+msgid "This Layout is invalid and should not be scheduled"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:391 server/lib/pages/layout.class.php:977
+msgid "The Status of this Layout is not known"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:408
+#: server/theme/default/html/layout_designer.php:48
+msgid "Preview Layout"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:418
+msgid "Design"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:432 server/lib/pages/layout.class.php:805
+msgid "Copy"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:512
+#: server/theme/default/html/layout_page.php:45
+msgid "Add Layout"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:512
+msgid "Edit Layout"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:600
+msgid "Change the Background Properties"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:602
+msgid "Add Image"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:636
+msgid "Layout Background Changed"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:666
+msgid "Unable to determine display resolution"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:747
+msgid "Timeline"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:747
+msgid "Edit Timeline"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:748
+#: server/theme/default/html/layout_designer.php:40
+msgid "Options"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:802
+msgid "Copy a Layout."
+msgstr ""
+
+#: server/lib/pages/layout.class.php:833
+msgid "Layout Copied"
+msgstr ""
+
+#: server/lib/pages/layout.class.php:862
+msgid "Unable to get group information for layout"
+msgstr ""
+
+#: server/lib/pages/log.class.php:141 server/lib/pages/sessions.class.php:106
+msgid "Error getting the log"
+msgstr ""
+
+#: server/lib/pages/log.class.php:182
+msgid "No log messages for this display"
+msgstr ""
+
+#: server/lib/pages/log.class.php:217 server/lib/pages/log.class.php:244
+msgid "Only Administrator Users can truncate the log"
+msgstr ""
+
+#: server/lib/pages/log.class.php:225
+msgid "Truncate Log"
+msgstr ""
+
+#: server/lib/pages/module.class.php:103
+msgid "Unable to get the list of modules"
+msgstr ""
+
+#: server/lib/pages/module.class.php:162 server/lib/pages/module.class.php:218
+msgid "Module Config Locked"
+msgstr ""
+
+#: server/lib/pages/module.class.php:184
+msgid "Error getting Module"
+msgstr ""
+
+#: server/lib/pages/module.class.php:200
+msgid "Edit Module"
+msgstr ""
+
+#: server/lib/pages/module.class.php:228
+msgid "Module ID is missing"
+msgstr ""
+
+#: server/lib/pages/module.class.php:231
+msgid "Image Uri is a required field."
+msgstr ""
+
+#: server/lib/pages/module.class.php:240
+msgid "Unable to update module"
+msgstr ""
+
+#: server/lib/pages/module.class.php:243
+msgid "Module Edited"
+msgstr ""
+
+#: server/lib/pages/module.class.php:264
+msgid "This Module does not exist"
+msgstr ""
+
+#: server/lib/pages/oauth.class.php:69
+msgid "Error listing Applications."
+msgstr ""
+
+#: server/lib/pages/oauth.class.php:111 server/lib/pages/oauth.class.php:267
+#: server/lib/pages/user.class.php:656
+msgid "Error listing Log."
+msgstr ""
+
+#: server/lib/pages/oauth.class.php:129
+msgid "OAuth Access Log"
+msgstr ""
+
+#: server/lib/pages/oauth.class.php:168
+msgid "Request authorized. Please return to your application."
+msgstr ""
+
+#: server/lib/pages/oauth.class.php:189
+msgid "Unsigned requests are not allowed to the authorize page."
+msgstr ""
+
+#: server/lib/pages/oauth.class.php:207
+msgid "Registration for Consumer Information"
+msgstr ""
+
+#: server/lib/pages/oauth.class.php:210
+msgid "Register"
+msgstr ""
+
+#: server/lib/pages/oauth.class.php:237
+#, php-format
+msgid "Your consumer key is: %s"
+msgstr ""
+
+#: server/lib/pages/oauth.class.php:238
+#, php-format
+msgid "Your consumer secret is: %s"
+msgstr ""
+
+#: server/lib/pages/oauth.class.php:285
+msgid "Authorized applications for user"
+msgstr ""
+
+#: server/lib/pages/preview.class.php:56
+msgid "You do not have permissions to view this layout"
+msgstr ""
+
+#: server/lib/pages/preview.class.php:92
+msgid "Preview for Layout"
+msgstr ""
+
+#: server/lib/pages/preview.class.php:116
+msgid "Loading layout..."
+msgstr ""
+
+#: server/lib/pages/preview.class.php:120
+msgid "Play again?"
+msgstr ""
+
+#: server/lib/pages/resolution.class.php:123
+#: server/theme/default/html/resolution_page.php:37
+msgid "Add Resolution"
+msgstr ""
+
+#: server/lib/pages/resolution.class.php:146
+msgid "Unable to edit this resolution"
+msgstr ""
+
+#: server/lib/pages/resolution.class.php:150
+msgid "Incorrect resolution id"
+msgstr ""
+
+#: server/lib/pages/resolution.class.php:164
+msgid "Edit Resolution"
+msgstr ""
+
+#: server/lib/pages/resolution.class.php:189
+msgid "Delete Resolution"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:120
+msgid "The Calendar doesnt support this view."
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:329
+#, php-format
+msgid "+ %d more"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:407
+#: server/lib/pages/schedule.class.php:454
+msgid "You must supply a day"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:434
+#, php-format
+msgid "Events for %s"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:436
+msgid "Delete All"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:461
+msgid "Display / Group"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:463
+#: server/lib/pages/schedule.class.php:1129
+#: server/lib/pages/schedule.class.php:1215 server/locale/dbtranslate.php:26
+#: server/theme/default/html/homepage_mediamanager.php:44
+#: server/theme/default/html/homepage_mediamanager_grid.php:38
+#: server/theme/default/html/layout_designer.php:80
+#: server/theme/default/html/layout_jumplist_grid.php:30
+#: server/theme/default/html/stats_page_grid.php:37
+#: server/theme/default/html/stats_page_grid.php:93
+msgid "Layout"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:464
+#: server/theme/default/html/library_form_media_add.php:89
+msgid "Start"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:465
+msgid "Finish"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:466
+#: server/theme/default/html/campaign_page_grid.php:47
+#: server/theme/default/html/dataset_form_column_grid.php:54
+#: server/theme/default/html/dataset_page_grid.php:52
+#: server/theme/default/html/displaygroup_page_grid.php:47
+#: server/theme/default/html/display_page_grid.php:72
+#: server/theme/default/html/help_page_grid.php:50
+#: server/theme/default/html/homepage_mediamanager_grid.php:56
+#: server/theme/default/html/layout_page_grid.php:57
+#: server/theme/default/html/library_page_grid.php:67
+#: server/theme/default/html/module_page_grid.php:64
+#: server/theme/default/html/resolution_page_grid.php:54
+#: server/theme/default/html/sessions_page_grid.php:49
+#: server/theme/default/html/template_page_grid.php:53
+#: server/theme/default/html/transition_page_grid.php:53
+#: server/theme/default/html/usergroup_page_grid.php:45
+#: server/theme/default/html/user_page_grid.php:50
+msgid "Action"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:477
+#: server/lib/pages/schedule.class.php:1245
+#: server/lib/pages/schedule.class.php:1337
+#: server/theme/default/html/display_form_edit.php:34
+#: server/theme/default/html/display_form_version_instructions.php:39
+#: server/theme/default/html/display_page_grid.php:46
+#: server/theme/default/html/log_page.php:67
+#: server/theme/default/html/stats_page.php:53
+#: server/theme/default/html/stats_page_grid.php:36
+#: server/theme/default/html/stats_page_grid.php:64
+#: server/theme/default/html/stats_page_grid.php:92
+#: server/theme/default/html/status_dashboard.php:45
+msgid "Display"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:610
+#: server/lib/pages/schedule.class.php:808
+#: server/lib/pages/schedule.class.php:911
+#: server/lib/pages/schedule.class.php:1007
+msgid "Error getting events for date."
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:832
+#: server/lib/pages/schedule.class.php:1031
+#: server/lib/pages/schedule.class.php:1507
+msgid "Edit Event"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1082
+msgid "Can not list Display Groups"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1086
+msgid "No Display Groups"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1089 server/locale/dbtranslate.php:32
+#: server/theme/default/html/schedule_page_display_list.php:38
+msgid "Groups"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1110 server/locale/dbtranslate.php:31
+#: server/theme/default/html/schedule_page_display_list.php:48
+msgid "Displays"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1143
+#: server/lib/pages/schedule.class.php:1259
+#: server/theme/default/html/layout_designer.php:81
+msgid "Pin?"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1215
+msgid "Campaign"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1260
+#: server/theme/default/html/schedule_page_display_list.php:34
+msgid "Check All"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1386
+#: server/lib/pages/schedule.class.php:1497
+msgid "Hourly"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1387
+#: server/lib/pages/schedule.class.php:1498
+msgid "Daily"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1388
+#: server/lib/pages/schedule.class.php:1499
+msgid "Weekly"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1389
+#: server/lib/pages/schedule.class.php:1500
+msgid "Monthly"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1390
+#: server/lib/pages/schedule.class.php:1501
+msgid "Yearly"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1393
+msgid "Schedule Event"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1444
+msgid "Error getting details for this event."
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1471
+msgid "You do not have permission to edit this event."
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1559
+#: server/lib/pages/schedule.class.php:1644
+#: server/lib/pages/schedule.class.php:1843
+msgid "No layout selected"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1565
+#: server/lib/pages/schedule.class.php:1650
+#: server/lib/pages/schedule.class.php:1850
+msgid "No displays selected"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1571
+#: server/lib/pages/schedule.class.php:1656
+msgid "Can not have an end time earlier than your start time"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1575
+#: server/lib/pages/schedule.class.php:1853
+msgid "Your start time is in the past. Cannot schedule events in the past"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1581
+#: server/lib/pages/schedule.class.php:1662
+msgid ""
+"Your repeat until date is in the past. Cannot schedule events to repeat in "
+"to the past"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1592
+msgid "The Event has been Added."
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1673
+msgid "The Event has been Modified."
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1692
+#: server/lib/pages/schedule.class.php:1740
+msgid "No event selected."
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1694
+msgid "Are you sure you want to delete this event from <b>all</b> displays?"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1695
+msgid ""
+"If you only want to delete this item from certain displays, please deselect "
+"the displays in the edit dialogue and click Save."
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1714
+msgid "Delete Event."
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1751
+msgid "The Event has been Deleted."
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1846
+msgid "You must enter a duration"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1863
+msgid "The Event has been Scheduled"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1878
+#: server/lib/pages/schedule.class.php:1925
+msgid "Day not selected"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1880
+msgid ""
+"Are you sure you want to delete all events that intersect this day from "
+"<b>all</b> displays?"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1881
+msgid "This action cannot be undone."
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1899
+#, php-format
+msgid "Delete %s"
+msgstr ""
+
+#: server/lib/pages/schedule.class.php:1942
+#, php-format
+msgid "All events for %s have been deleted"
+msgstr ""
+
+#: server/lib/pages/sessions.class.php:125
+#: server/theme/default/html/header.php:73
+msgid "Logout"
+msgstr ""
+
+#: server/lib/pages/sessions.class.php:153
+msgid "Logout User"
+msgstr ""
+
+#: server/lib/pages/sessions.class.php:181
+msgid "Unable to log out this user"
+msgstr ""
+
+#: server/lib/pages/sessions.class.php:184
+msgid "User Logged Out."
+msgstr ""
+
+#: server/lib/pages/stats.class.php:93 server/lib/pages/stats.class.php:262
+msgid "No displays with View permissions"
+msgstr ""
+
+#: server/lib/pages/stats.class.php:117
+msgid "Unable to get Layouts Shown"
+msgstr ""
+
+#: server/lib/pages/stats.class.php:159 server/lib/pages/stats.class.php:202
+msgid "Unable to get Library Media Ran"
+msgstr ""
+
+#: server/lib/pages/statusdashboard.class.php:51
+msgid "GB"
+msgstr ""
+
+#: server/lib/pages/template.class.php:95
+msgid "Unable to get list of templates for this user"
+msgstr ""
+
+#: server/lib/pages/template.class.php:153
+msgid "Save this Layout as a Template?"
+msgstr ""
+
+#: server/lib/pages/template.class.php:208
+#: server/lib/pages/template.class.php:240
+#: server/lib/pages/template.class.php:312
+#: server/lib/pages/template.class.php:389
+msgid "No template selected"
+msgstr ""
+
+#: server/lib/pages/template.class.php:214
+#: server/lib/pages/template.class.php:246
+msgid "Access denied"
+msgstr ""
+
+#: server/lib/pages/template.class.php:224
+msgid "The Template has been Deleted"
+msgstr ""
+
+#: server/lib/pages/template.class.php:255
+msgid "Delete a Template"
+msgstr ""
+
+#: server/lib/pages/template.class.php:283
+msgid "Unable to get group information for template"
+msgstr ""
+
+#: server/lib/pages/template.class.php:337
+msgid "Unable to get permissions for this template"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:52
+msgid "No layout information available, please refresh the page."
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:65
+msgid "Region Added."
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:84
+msgid ""
+"No layout/region information available, please refresh the page and try "
+"again."
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:94
+#: server/lib/pages/timeline.class.php:329
+msgid "You do not have permissions to delete this region"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:110
+msgid "Region Deleted."
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:140
+#: server/lib/pages/timeline.class.php:232
+#: server/lib/pages/timeline.class.php:300
+#: server/lib/pages/timeline.class.php:385
+#: server/lib/pages/timeline.class.php:658
+#: server/lib/pages/timeline.class.php:855
+msgid "You do not have permissions to edit this region"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:189
+msgid "Region Options"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:192
+msgid "Set Full Screen"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:274
+msgid "No regions present"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:332
+msgid "Are you sure you want to remove this region?"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:333
+msgid ""
+"All media files will be unassigned and any context saved to the region "
+"itself (such as Text, Tickers) will be lost permanently."
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:346
+msgid "Delete this region?"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:443
+msgid "Empty Region"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:495
+#: server/lib/pages/timeline.class.php:570
+msgid "You do not have permissions to edit this regions permissions"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:526
+msgid "Unable to get permissions for this layout region"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:670 server/locale/dbtranslate.php:27
+#: server/locale/dbtranslate.php:40
+msgid "Library"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:765
+msgid "Click to edit this media"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:768
+msgid "Click to delete this media"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:774
+#: server/lib/pages/timeline.class.php:777
+msgid "Click to edit this transition"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:774
+msgid "In Transition"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:777
+msgid "Out Transition"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:819
+msgid "Region Timeline"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:828
+msgid "Save Order"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:859
+msgid "No media to reorder"
+msgstr ""
+
+#: server/lib/pages/timeline.class.php:882
+msgid "Order Changed"
+msgstr ""
+
+#: server/lib/pages/transition.class.php:78
+msgid "Unable to get the list of transitions"
+msgstr ""
+
+#: server/lib/pages/transition.class.php:131
+#: server/lib/pages/transition.class.php:183
+msgid "Transition Config Locked"
+msgstr ""
+
+#: server/lib/pages/transition.class.php:148
+msgid "Error getting Transition"
+msgstr ""
+
+#: server/lib/pages/transition.class.php:162
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: server/lib/pages/transition.class.php:191
+msgid "Transition ID is missing"
+msgstr ""
+
+#: server/lib/pages/transition.class.php:200
+msgid "Unable to update transition"
+msgstr ""
+
+#: server/lib/pages/transition.class.php:203
+msgid "Transition Edited"
+msgstr ""
+
+#: server/lib/pages/user.class.php:127
+msgid "Error getting list of users"
+msgstr ""
+
+#: server/lib/pages/user.class.php:172
+msgid "Applications"
+msgstr ""
+
+#: server/lib/pages/user.class.php:179
+msgid "Set Homepage"
+msgstr ""
+
+#: server/lib/pages/user.class.php:186 server/lib/pages/user.class.php:741
+msgid "Set Password"
+msgstr ""
+
+#: server/lib/pages/user.class.php:315
+msgid "Please enter a User Name."
+msgstr ""
+
+#: server/lib/pages/user.class.php:325
+msgid "Cant get this user's name. Please try another."
+msgstr ""
+
+#: server/lib/pages/user.class.php:330
+msgid "Could Not Complete, Duplicate User Name Exists"
+msgstr ""
+
+#: server/lib/pages/user.class.php:344
+msgid "Error updating user"
+msgstr ""
+
+#: server/lib/pages/user.class.php:384
+msgid "Cannot delete this user, they have layouts"
+msgstr ""
+
+#: server/lib/pages/user.class.php:387
+msgid "Cannot delete this user, they have media"
+msgstr ""
+
+#: server/lib/pages/user.class.php:390
+msgid "Cannot delete this user, they have scheduled layouts"
+msgstr ""
+
+#: server/lib/pages/user.class.php:393
+msgid "Cannot delete this user, they have schedule detail records"
+msgstr ""
+
+#: server/lib/pages/user.class.php:396
+msgid "Cannot delete this user, they have templates"
+msgstr ""
+
+#: server/lib/pages/user.class.php:399
+msgid "Cannot delete this user, they have applications"
+msgstr ""
+
+#: server/lib/pages/user.class.php:402
+msgid "Cannot delete this user, they have permissions to data sets"
+msgstr ""
+
+#: server/lib/pages/user.class.php:405
+msgid "Cannot delete this user, they have permissions to display groups"
+msgstr ""
+
+#: server/lib/pages/user.class.php:408
+msgid "Cannot delete this user, they have permissions to layouts"
+msgstr ""
+
+#: server/lib/pages/user.class.php:411
+msgid "Cannot delete this user, they have permissions to media on layouts"
+msgstr ""
+
+#: server/lib/pages/user.class.php:414
+msgid "Cannot delete this user, they have permissions to regions on layouts"
+msgstr ""
+
+#: server/lib/pages/user.class.php:417
+msgid "Cannot delete this user, they have permissions to media"
+msgstr ""
+
+#: server/lib/pages/user.class.php:420
+msgid "Cannot delete this user, they have permissions to templates"
+msgstr ""
+
+#: server/lib/pages/user.class.php:439
+msgid "This user has been active, you may only retire them."
+msgstr ""
+
+#: server/lib/pages/user.class.php:448
+msgid "If logged in, this user will be deleted once they log out."
+msgstr ""
+
+#: server/lib/pages/user.class.php:451
+msgid "User Deleted."
+msgstr ""
+
+#: server/lib/pages/user.class.php:489
+msgid "Error getting user information."
+msgstr ""
+
+#: server/lib/pages/user.class.php:571
+msgid "Delete this User?"
+msgstr ""
+
+#: server/lib/pages/user.class.php:599
+msgid "Set the homepage for this user"
+msgstr ""
+
+#: server/lib/pages/user.class.php:620
+msgid "You do not have permission to change this users homepage"
+msgstr ""
+
+#: server/lib/pages/user.class.php:630
+msgid "Unknown error setting this users homepage"
+msgstr ""
+
+#: server/lib/pages/user.class.php:634
+msgid "Homepage has been set"
+msgstr ""
+
+#: server/lib/pages/user.class.php:663
+#: server/theme/default/html/user_page.php:39
+msgid "My Applications"
+msgstr ""
+
+#: server/lib/pages/user.class.php:678
+#: server/theme/default/html/user_form_change_password.php:33
+msgid "Old Password"
+msgstr ""
+
+#: server/lib/pages/user.class.php:679
+#: server/theme/default/html/user_form_change_password.php:37
+#: server/theme/default/html/user_form_set_password.php:33
+msgid "New Password"
+msgstr ""
+
+#: server/lib/pages/user.class.php:680
+#: server/theme/default/html/user_form_change_password.php:41
+#: server/theme/default/html/user_form_set_password.php:37
+msgid "Retype New Password"
+msgstr ""
+
+#: server/lib/pages/user.class.php:690 server/theme/default/html/header.php:70
+msgid "Change Password"
+msgstr ""
+
+#: server/lib/pages/user.class.php:719 server/lib/pages/user.class.php:775
+msgid "Password Changed"
+msgstr ""
+
+#: server/lib/pages/user.class.php:767
+msgid "Trying to change the password for another user denied"
+msgstr ""
+
+#: server/lib/service/xmdssoap.class.php:1137
+#, php-format
+msgid "Recovery for Display %s"
+msgstr ""
+
+#: server/lib/service/xmdssoap.class.php:1138
+#, php-format
+msgid "Display %s with ID %d is now back online."
+msgstr ""
+
+#: server/locale/dbtranslate.php:25 server/locale/dbtranslate.php:38
+msgid "Schedule"
+msgstr ""
+
+#: server/locale/dbtranslate.php:28
+msgid "Administration"
+msgstr ""
+
+#: server/locale/dbtranslate.php:29
+msgid "Advanced"
+msgstr ""
+
+#: server/locale/dbtranslate.php:30
+#: server/theme/default/html/homepage_mediamanager.php:46
+#: server/theme/default/html/homepage_mediamanager_grid.php:40
+#: server/theme/default/html/stats_page.php:55
+#: server/theme/default/html/stats_page_grid.php:65
+#: server/theme/default/html/stats_page_grid.php:94
+msgid "Media"
+msgstr ""
+
+#: server/locale/dbtranslate.php:33
+msgid "Users"
+msgstr ""
+
+#: server/locale/dbtranslate.php:34
+msgid "Log"
+msgstr ""
+
+#: server/locale/dbtranslate.php:35
+#: server/theme/default/html/display_page_grid.php:45
+msgid "License"
+msgstr ""
+
+#: server/locale/dbtranslate.php:36
+msgid "Sessions"
+msgstr ""
+
+#: server/locale/dbtranslate.php:41
+msgid "Templates"
+msgstr ""
+
+#: server/locale/dbtranslate.php:43
+msgid "Edit your Display"
+msgstr ""
+
+#: server/locale/dbtranslate.php:44
+msgid "Report Fault"
+msgstr ""
+
+#: server/locale/dbtranslate.php:47
+msgid "Content"
+msgstr ""
+
+#: server/locale/dbtranslate.php:48
+msgid "Default"
+msgstr ""
+
+#: server/locale/dbtranslate.php:49
+#: server/theme/default/html/library_form_media_add.php:111
+msgid "Error"
+msgstr ""
+
+#: server/locale/dbtranslate.php:50
+msgid "General"
+msgstr ""
+
+#: server/locale/dbtranslate.php:51
+msgid "Path"
+msgstr ""
+
+#: server/locale/dbtranslate.php:52
+msgid "DataSets"
+msgstr ""
+
+#: server/locale/dbtranslate.php:53
+msgid "Modules"
+msgstr ""
+
+#: server/locale/dbtranslate.php:54
+msgid "Campaigns"
+msgstr ""
+
+#: server/locale/dbtranslate.php:55
+msgid "Transitions"
+msgstr ""
+
+#: server/locale/dbtranslate.php:56
+msgid "Resolutions"
+msgstr ""
+
+#: server/locale/dbtranslate.php:57
+msgid "User Groups"
+msgstr ""
+
+#: server/locale/dbtranslate.php:58
+msgid "Help Links"
+msgstr ""
+
+#: server/locale/dbtranslate.php:61
+msgid "jpg_length"
+msgstr ""
+
+#: server/locale/dbtranslate.php:62
+msgid "ppt_length"
+msgstr ""
+
+#: server/locale/dbtranslate.php:63
+msgid "swf_length"
+msgstr ""
+
+#: server/locale/dbtranslate.php:64
+msgid "defaultMedia"
+msgstr ""
+
+#: server/locale/dbtranslate.php:65
+msgid "defaultPlaylist"
+msgstr ""
+
+#: server/locale/dbtranslate.php:66
+msgid "defaultUsertype"
+msgstr ""
+
+#: server/locale/dbtranslate.php:67
+msgid "defaultTimezone"
+msgstr ""
+
+#: server/locale/dbtranslate.php:68
+msgid "debug"
+msgstr ""
+
+#: server/locale/dbtranslate.php:69
+msgid "audit"
+msgstr ""
+
+#: server/locale/dbtranslate.php:70
+msgid "SERVER_MODE"
+msgstr ""
+
+#: server/locale/dbtranslate.php:71
+msgid "SERVER_KEY"
+msgstr ""
+
+#: server/locale/dbtranslate.php:72
+msgid "PHONE_HOME"
+msgstr ""
+
+#: server/locale/dbtranslate.php:73
+msgid "LIBRARY_LOCATION"
+msgstr ""
+
+#: server/locale/dbtranslate.php:74
+msgid "MAINTENANCE_ENABLED"
+msgstr ""
+
+#: server/locale/dbtranslate.php:75
+msgid "MAINTENANCE_EMAIL_ALERTS"
+msgstr ""
+
+#: server/locale/dbtranslate.php:76
+msgid "MAINTENANCE_LOG_MAXAGE"
+msgstr ""
+
+#: server/locale/dbtranslate.php:77
+msgid "MAINTENANCE_STAT_MAXAGE"
+msgstr ""
+
+#: server/locale/dbtranslate.php:78
+msgid "MAINTENANCE_ALERT_TOUT"
+msgstr ""
+
+#: server/locale/dbtranslate.php:79
+msgid "MAINTENANCE_KEY"
+msgstr ""
+
+#: server/locale/dbtranslate.php:80
+msgid "MAINTENANCE_ALWAYS_ALERT"
+msgstr ""
+
+#: server/locale/dbtranslate.php:81
+msgid "mail_from"
+msgstr ""
+
+#: server/locale/dbtranslate.php:82
+msgid "mail_to"
+msgstr ""
+
+#: server/locale/dbtranslate.php:83
+msgid "SHOW_DISPLAY_AS_VNCLINK"
+msgstr ""
+
+#: server/locale/dbtranslate.php:84
+msgid "SHOW_DISPLAY_AS_VNC_TGT"
+msgstr ""
+
+#: server/locale/dbtranslate.php:85
+msgid "REGION_OPTIONS_COLOURING"
+msgstr ""
+
+#: server/locale/dbtranslate.php:86
+msgid "LAYOUT_COPY_MEDIA_CHECKB"
+msgstr ""
+
+#: server/locale/dbtranslate.php:87
+msgid "LIBRARY_MEDIA_UPDATEINALL_CHECKB"
+msgstr ""
+
+#: server/locale/dbtranslate.php:88
+msgid "USER_PASSWORD_POLICY"
+msgstr ""
+
+#: server/locale/dbtranslate.php:89
+msgid "USER_PASSWORD_ERROR"
+msgstr ""
+
+#: server/locale/dbtranslate.php:90
+msgid "MODULE_CONFIG_LOCKED_CHECKB"
+msgstr ""
+
+#: server/locale/dbtranslate.php:91
+msgid "LIBRARY_SIZE_LIMIT_KB"
+msgstr ""
+
+#: server/locale/dbtranslate.php:92
+msgid "MONTHLY_XMDS_TRANSFER_LIMIT_KB"
+msgstr ""
+
+#: server/locale/dbtranslate.php:93
+msgid "DEFAULT_LANGUAGE"
+msgstr ""
+
+#: server/locale/dbtranslate.php:94
+msgid "TRANSITION_CONFIG_LOCKED_CHECKB"
+msgstr ""
+
+#: server/locale/dbtranslate.php:95
+msgid "GLOBAL_THEME_NAME"
+msgstr ""
+
+#: server/locale/dbtranslate.php:96
+msgid "DEFAULT_LAT"
+msgstr ""
+
+#: server/locale/dbtranslate.php:97
+msgid "DEFAULT_LONG"
+msgstr ""
+
+#: server/locale/dbtranslate.php:98
+msgid "SCHEDULE_WITH_VIEW_PERMISSION"
+msgstr ""
+
+#: server/locale/dbtranslate.php:99
+msgid "SETTING_IMPORT_ENABLED"
+msgstr ""
+
+#: server/locale/dbtranslate.php:100
+msgid "SETTING_LIBRARY_TIDY_ENABLED"
+msgstr ""
+
+#: server/locale/dbtranslate.php:101
+msgid "EMBEDDED_STATUS_WIDGET"
+msgstr ""
+
+#: server/locale/dbtranslate.php:102
+msgid "PROXY_HOST"
+msgstr ""
+
+#: server/locale/dbtranslate.php:103
+msgid "PROXY_PORT"
+msgstr ""
+
+#: server/locale/dbtranslate.php:104
+msgid "PROXY_AUTH"
+msgstr ""
+
+#: server/locale/dbtranslate.php:107
+msgid "Fade In"
+msgstr ""
+
+#: server/locale/dbtranslate.php:108
+msgid "Fade Out"
+msgstr ""
+
+#: server/locale/dbtranslate.php:109
+msgid "Fly"
+msgstr ""
+
+#: server/locale/dbtranslate.php:112
+msgid "String"
+msgstr ""
+
+#: server/locale/dbtranslate.php:113
+msgid "Number"
+msgstr ""
+
+#: server/locale/dbtranslate.php:114
+#: server/theme/default/html/log_form_display_last100.php:30
+#: server/theme/default/html/log_page_grid.php:30
+msgid "Date"
+msgstr ""
+
+#: server/locale/dbtranslate.php:116
+msgid "Value"
+msgstr ""
+
+#: server/locale/dbtranslate.php:117
+#: server/theme/default/html/dataset_form_column_add.php:62
+#: server/theme/default/html/dataset_form_column_edit.php:62
+msgid "Formula"
+msgstr ""
+
+#: server/modules/counter.module.php:69
+msgid "Add Counter"
+msgstr ""
+
+#: server/modules/counter.module.php:135
+msgid "Edit Counter"
+msgstr ""
+
+#: server/modules/datasetview.module.php:31
+msgid "DataSet View"
+msgstr ""
+
+#: server/modules/datasetview.module.php:60
+msgid "Add DataSet View"
+msgstr ""
+
+#: server/modules/datasetview.module.php:180
+#, php-format
+msgid "Edit DataSet View for DataSet %s"
+msgstr ""
+
+#: server/modules/datasetview.module.php:217
+#: server/modules/ticker.module.php:259
+msgid "Please select a DataSet"
+msgstr ""
+
+#: server/modules/datasetview.module.php:226
+#: server/modules/ticker.module.php:263
+msgid "You do not have permission to use that dataset"
+msgstr ""
+
+#: server/modules/datasetview.module.php:315
+#: server/modules/ticker.module.php:370
+msgid "Limits must be numbers"
+msgstr ""
+
+#: server/modules/datasetview.module.php:318
+#: server/modules/ticker.module.php:373
+msgid "Limits cannot be lower than 0"
+msgstr ""
+
+#: server/modules/datasetview.module.php:322
+#: server/modules/ticker.module.php:377
+msgid "Upper limit must be higher than lower limit"
+msgstr ""
+
+#: server/modules/datasetview.module.php:325
+#: server/modules/ticker.module.php:399
+msgid "Update Interval must be greater than or equal to 0"
+msgstr ""
+
+#: server/modules/datasetview.module.php:329
+#: server/modules/ticker.module.php:367
+msgid "Cannot user ordering criteria in the Filter Clause"
+msgstr ""
+
+#: server/modules/flash.module.php:31
+msgid "Flash"
+msgstr ""
+
+#: server/modules/genericfile.module.php:31
+msgid "Generic File"
+msgstr ""
+
+#: server/modules/image.module.php:31
+msgid "Image"
+msgstr ""
+
+#: server/modules/localvideo.module.php:49
+#: server/modules/localvideo.module.php:113
+msgid "Video Path"
+msgstr ""
+
+#: server/modules/localvideo.module.php:79
+msgid "Add Local Video"
+msgstr ""
+
+#: server/modules/localvideo.module.php:144
+msgid "Edit Local Video"
+msgstr ""
+
+#: server/modules/localvideo.module.php:173
+#: server/modules/localvideo.module.php:240
+msgid ""
+"Please enter a full path name giving the location of this video on the client"
+msgstr ""
+
+#: server/modules/microblog.module.php:27
+msgid "Microblog"
+msgstr ""
+
+#: server/modules/microblog.module.php:55
+msgid "Add Microblog"
+msgstr ""
+
+#: server/modules/microblog.module.php:56
+#: server/modules/microblog.module.php:137
+msgid "modal-big"
+msgstr ""
+
+#: server/modules/microblog.module.php:136
+msgid "Edit MicroBlog"
+msgstr ""
+
+#: server/modules/module_user_general.php:116
+#: server/modules/module_user_general.php:128
+#: server/modules/module_user_general.php:139
+msgid "Username or Password incorrect"
+msgstr ""
+
+#: server/modules/module_user_general.php:157
+msgid "Can not write last accessed info."
+msgstr ""
+
+#: server/modules/module_user_general.php:314
+msgid "User does not have a group and Xibo is unable to add one."
+msgstr ""
+
+#: server/modules/module_user_general.php:371
+msgid "User does not have a group and we are unable to add one."
+msgstr ""
+
+#: server/modules/module_user_general.php:456
+msgid "Unknown User"
+msgstr ""
+
+#: server/modules/module_user_general.php:483
+msgid "Requested page does not exist"
+msgstr ""
+
+#: server/modules/powerpoint.module.php:31
+msgid "PowerPoint"
+msgstr ""
+
+#: server/modules/shellcommand.module.php:62
+msgid "Add Shell Command"
+msgstr ""
+
+#: server/modules/shellcommand.module.php:109
+msgid "Edit Shell Command"
+msgstr ""
+
+#: server/modules/shellcommand.module.php:220
+#: server/theme/default/html/media_form_shellcommand_add.php:30
+#: server/theme/default/html/media_form_shellcommand_edit.php:30
+msgid "Windows Command"
+msgstr ""
+
+#: server/modules/shellcommand.module.php:221
+#: server/theme/default/html/media_form_shellcommand_add.php:36
+#: server/theme/default/html/media_form_shellcommand_edit.php:36
+msgid "Linux Command"
+msgstr ""
+
+#: server/modules/text.module.php:53 server/modules/text.module.php:131
+#: server/modules/ticker.module.php:133 server/modules/webpage.module.php:52
+#: server/modules/webpage.module.php:109
+msgid "Left"
+msgstr ""
+
+#: server/modules/text.module.php:54 server/modules/text.module.php:132
+#: server/modules/ticker.module.php:134 server/modules/webpage.module.php:53
+#: server/modules/webpage.module.php:110
+msgid "Right"
+msgstr ""
+
+#: server/modules/text.module.php:55 server/modules/text.module.php:133
+#: server/modules/ticker.module.php:135 server/modules/webpage.module.php:54
+#: server/modules/webpage.module.php:111
+msgid "Up"
+msgstr ""
+
+#: server/modules/text.module.php:56 server/modules/text.module.php:134
+#: server/modules/ticker.module.php:136 server/modules/webpage.module.php:55
+#: server/modules/webpage.module.php:112
+msgid "Down"
+msgstr ""
+
+#: server/modules/text.module.php:72
+msgid "Add Text"
+msgstr ""
+
+#: server/modules/text.module.php:147
+#: server/theme/default/html/media_form_text_add.php:53
+#: server/theme/default/html/media_form_text_edit.php:53
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:103
+#: server/theme/default/html/media_form_ticker_edit.php:69
+msgid "Fit text to region"
+msgstr ""
+
+#: server/modules/text.module.php:153
+msgid "Edit Text"
+msgstr ""
+
+#: server/modules/ticker.module.php:62
+msgid "Add New Ticker"
+msgstr ""
+
+#: server/modules/ticker.module.php:137
+msgid "Single"
+msgstr ""
+
+#: server/modules/ticker.module.php:143
+msgid "Start of the Feed"
+msgstr ""
+
+#: server/modules/ticker.module.php:144
+msgid "End of the Feed"
+msgstr ""
+
+#: server/modules/ticker.module.php:200
+msgid "Edit Ticker"
+msgstr ""
+
+#: server/modules/ticker.module.php:238
+msgid "Please enter a duration"
+msgstr ""
+
+#: server/modules/ticker.module.php:250 server/modules/ticker.module.php:362
+msgid "Please enter a Link for this Ticker"
+msgstr ""
+
+#: server/modules/ticker.module.php:272
+msgid "Unknown Source Type"
+msgstr ""
+
+#: server/modules/ticker.module.php:392
+msgid "The value in Number of Items must be numeric."
+msgstr ""
+
+#: server/modules/ticker.module.php:459
+#: server/theme/default/html/login_page.php:87
+msgid "Source"
+msgstr ""
+
+#: server/modules/video.module.php:31
+msgid "Video"
+msgstr ""
+
+#: server/modules/webpage.module.php:74
+msgid "Add Webpage"
+msgstr ""
+
+#: server/modules/webpage.module.php:141
+msgid "Edit Webpage"
+msgstr ""
+
+#: server/theme/default/html/applications_form_view_log.php:37
+msgid "Timestamp"
+msgstr ""
+
+#: server/theme/default/html/applications_form_view_log.php:38
+msgid "Notes"
+msgstr ""
+
+#: server/theme/default/html/applications_form_view_log.php:39
+msgid "Header"
+msgstr ""
+
+#: server/theme/default/html/applications_page.php:38
+msgid "View a log of application activity"
+msgstr ""
+
+#: server/theme/default/html/applications_page.php:38
+msgid "oAuth Log"
+msgstr ""
+
+#: server/theme/default/html/applications_page.php:39
+msgid "Add an Application"
+msgstr ""
+
+#: server/theme/default/html/applications_page.php:39
+msgid "Add Application"
+msgstr ""
+
+#: server/theme/default/html/applications_page_grid.php:35
+msgid "Title"
+msgstr ""
+
+#: server/theme/default/html/applications_page_grid.php:36
+#: server/theme/default/html/dataset_form_add.php:39
+#: server/theme/default/html/dataset_form_edit.php:39
+#: server/theme/default/html/dataset_page_grid.php:37
+#: server/theme/default/html/displaygroup_form_add.php:35
+#: server/theme/default/html/displaygroup_form_edit.php:37
+#: server/theme/default/html/displaygroup_page_grid.php:36
+#: server/theme/default/html/layout_form_add.php:38
+#: server/theme/default/html/layout_form_edit.php:43
+#: server/theme/default/html/layout_page_grid.php:39
+#: server/theme/default/html/module_page_grid.php:41
+#: server/theme/default/html/template_form_add.php:38
+msgid "Description"
+msgstr ""
+
+#: server/theme/default/html/applications_page_grid.php:37
+#: server/theme/default/html/user_form_add.php:45
+#: server/theme/default/html/user_form_edit.php:41
+#: server/theme/default/html/user_form_set_homepage.php:33
+#: server/theme/default/html/user_page_grid.php:37
+msgid "Homepage"
+msgstr ""
+
+#: server/theme/default/html/applications_page_grid.php:38
+msgid "Key"
+msgstr ""
+
+#: server/theme/default/html/applications_page_grid.php:39
+msgid "Secret"
+msgstr ""
+
+#: server/theme/default/html/application_form_register.php:31
+msgid "About you"
+msgstr ""
+
+#: server/theme/default/html/application_form_register.php:34
+msgid "Full Name"
+msgstr ""
+
+#: server/theme/default/html/application_form_register.php:39
+msgid "Email Address"
+msgstr ""
+
+#: server/theme/default/html/application_form_register.php:45
+msgid "Details"
+msgstr ""
+
+#: server/theme/default/html/application_form_register.php:48
+msgid "The URL of your application homepage"
+msgstr ""
+
+#: server/theme/default/html/application_form_register.php:53
+msgid "The call back URL for requests"
+msgstr ""
+
+#: server/theme/default/html/application_form_user_applications.php:38
+#: server/theme/default/html/user_form_my_applications.php:37
+msgid "Application"
+msgstr ""
+
+#: server/theme/default/html/application_form_user_applications.php:39
+#: server/theme/default/html/module_form_edit.php:43
+#: server/theme/default/html/module_page_grid.php:47
+#: server/theme/default/html/user_form_my_applications.php:38
+msgid "Enabled"
+msgstr ""
+
+#: server/theme/default/html/application_form_user_applications.php:40
+#: server/theme/default/html/layout_page_grid.php:42
+#: server/theme/default/html/user_form_my_applications.php:39
+msgid "Status"
+msgstr ""
+
+#: server/theme/default/html/campaign_form_add.php:31
+#: server/theme/default/html/campaign_form_edit.php:32
+msgid "The Name for this Campaign"
+msgstr ""
+
+#: server/theme/default/html/campaign_form_delete.php:30
+#: server/theme/default/html/dataset_form_column_delete.php:30
+#: server/theme/default/html/dataset_form_delete.php:30
+#: server/theme/default/html/displaygroup_form_delete.php:30
+#: server/theme/default/html/help_form_delete.php:30
+#: server/theme/default/html/resolution_form_delete.php:30
+#: server/theme/default/html/template_form_delete.php:30
+#: server/theme/default/html/usergroup_form_delete.php:30
+#: server/theme/default/html/user_form_delete.php:30
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: server/theme/default/html/campaign_page.php:37
+#: server/theme/default/html/layout_page.php:45
+msgid "Add a new Layout and jump to the layout designer."
+msgstr ""
+
+#: server/theme/default/html/campaign_page_grid.php:36
+msgid "# Layouts"
+msgstr ""
+
+#: server/theme/default/html/dataset_dataentry_page.php:36
+msgid "Add more rows to the end of this DataSet"
+msgstr ""
+
+#: server/theme/default/html/dataset_dataentry_page.php:36
+msgid "More Rows"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_add.php:33
+#: server/theme/default/html/dataset_form_edit.php:33
+msgid "A name for this DataSet"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_add.php:39
+#: server/theme/default/html/dataset_form_edit.php:39
+msgid "A description for this DataSet"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_column_add.php:32
+#: server/theme/default/html/dataset_form_column_edit.php:32
+msgid "The heading for this Column"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_column_add.php:32
+#: server/theme/default/html/dataset_form_column_edit.php:32
+#: server/theme/default/html/dataset_form_column_grid.php:36
+msgid "Heading"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_column_add.php:38
+#: server/theme/default/html/dataset_form_column_edit.php:38
+msgid "Whether this column is a value or a formula"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_column_add.php:38
+#: server/theme/default/html/dataset_form_column_edit.php:38
+#: server/theme/default/html/dataset_form_column_grid.php:40
+msgid "Column Type"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_column_add.php:44
+#: server/theme/default/html/dataset_form_column_edit.php:44
+msgid "The DataType of the Intended Data"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_column_add.php:44
+#: server/theme/default/html/dataset_form_column_edit.php:44
+#: server/theme/default/html/dataset_form_column_grid.php:39
+msgid "Data Type"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_column_add.php:50
+#: server/theme/default/html/dataset_form_column_edit.php:50
+msgid "A comma seperated list of items to present in a combo box"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_column_add.php:50
+#: server/theme/default/html/dataset_form_column_edit.php:50
+#: server/theme/default/html/dataset_form_column_grid.php:37
+msgid "List Content"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_column_add.php:56
+#: server/theme/default/html/dataset_form_column_edit.php:56
+msgid "The order this column should be displayed in when entering data"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_column_add.php:56
+#: server/theme/default/html/dataset_form_column_edit.php:56
+#: server/theme/default/html/dataset_form_column_grid.php:38
+msgid "Column Order"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_column_add.php:62
+#: server/theme/default/html/dataset_form_column_edit.php:62
+msgid "A formular to use as a calculation for formula column types"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_csv_import.php:30
+#: server/theme/default/html/library_form_media_edit.php:30
+msgid "Select the file to upload"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_csv_import.php:30
+#: server/theme/default/html/library_form_media_edit.php:30
+msgid "File"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_csv_import.php:38
+#: server/theme/default/html/library_form_media_edit.php:38
+msgid "You may fill in the form while your file is uploading."
+msgstr ""
+
+#: server/theme/default/html/dataset_form_csv_import.php:41
+msgid ""
+"Please choose a column number from the source CSV file to map to each "
+"DataSet Column. If no mapping exists, leave blank."
+msgstr ""
+
+#: server/theme/default/html/dataset_form_csv_import.php:47
+msgid "Overwrite existing data"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_csv_import.php:47
+msgid "Overwrite existing data?"
+msgstr ""
+
+#: server/theme/default/html/dataset_form_csv_import.php:54
+msgid "Ignore the first row? Useful if the CSV has headings."
+msgstr ""
+
+#: server/theme/default/html/dataset_form_csv_import.php:54
+msgid "Ignore first row?"
+msgstr ""
+
+#: server/theme/default/html/dataset_page.php:36
+msgid "Add a new DataSet"
+msgstr ""
+
+#: server/theme/default/html/dataset_page_grid.php:38
+#: server/theme/default/html/layout_page.php:55
+#: server/theme/default/html/layout_page_grid.php:40
+#: server/theme/default/html/library_page.php:51
+#: server/theme/default/html/library_page_grid.php:46
+#: server/theme/default/html/template_page_grid.php:38
+msgid "Owner"
+msgstr ""
+
+#: server/theme/default/html/displaygroup_form_add.php:31
+#: server/theme/default/html/displaygroup_form_edit.php:33
+msgid "The Name for this Group"
+msgstr ""
+
+#: server/theme/default/html/displaygroup_form_add.php:35
+#: server/theme/default/html/displaygroup_form_edit.php:37
+msgid "A short description of this Group"
+msgstr ""
+
+#: server/theme/default/html/displaygroup_form_display_assign.php:31
+#: server/theme/default/html/display_form_group_assign.php:31
+#: server/theme/default/html/usergroup_form_user_assign.php:31
+msgid "Drag or double click to move items between lists"
+msgstr ""
+
+#: server/theme/default/html/displaygroup_form_display_assign.php:33
+msgid "Assigned Displays"
+msgstr ""
+
+#: server/theme/default/html/displaygroup_form_display_assign.php:41
+msgid "Available Displays"
+msgstr ""
+
+#: server/theme/default/html/displaygroup_page.php:37
+msgid "Add a new Display Group"
+msgstr ""
+
+#: server/theme/default/html/display_form_delete.php:30
+msgid "Are you sure you want to delete this display? This cannot be undone."
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:34
+msgid "The Name of the Display - (1 - 50 characters)."
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:40
+msgid "Display's Hardware Key"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:46
+msgid "Use one of the available licenses for this display?"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:46
+msgid "Licence Display?"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:52
+msgid "Whether to always put the default layout into the cycle."
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:52
+#: server/theme/default/html/display_page_grid.php:48
+msgid "Interleave Default"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:58
+msgid "The Default Layout to Display where there is no other content."
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:64
+msgid ""
+"Collect auditing from this client. Should only be used if there is a problem "
+"with the display."
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:64
+msgid "Auditing"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:70
+msgid ""
+"Do you want to be notified by email if there is a problem with this display?"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:76
+msgid ""
+"How long in minutes after the display last connected to the webservice "
+"should we send an alert. Set this value higher than the collection interval "
+"on the client. Set to 0 to use global default."
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:76
+msgid "Alert Timeout"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:85
+msgid ""
+"Wake on Lan requires the correct network configuration to route the magic "
+"packet to the display PC"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:85
+msgid "Enable Wake on LAN"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:91
+msgid "The IP address of the remote host's broadcast address (or gateway)"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:91
+msgid "BroadCast Address"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:97
+msgid ""
+"Enter a hexidecimal password of a SecureOn enabled Network Interface Card "
+"(NIC) of the remote host. Enter a value in this pattern: 'xx-xx-xx-xx-xx-"
+"xx'. Leave the following field empty, if SecureOn is not used (for example, "
+"because the NIC of the remote host does not support SecureOn)."
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:97
+msgid "Wake on LAN SecureOn"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:103
+msgid ""
+"The time this display should receive the WOL command, using the 24hr clock - "
+"e.g. 19:00. Maintenance must be enabled."
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:103
+msgid "Wake on LAN Time"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:109
+msgid ""
+"Enter a number within the range of 0 to 32 in the following field. Leave the "
+"following field empty, if no subnet mask should be used (CIDR = 0). If the "
+"remote host's broadcast address is unkown: Enter the host name or IP address "
+"of the remote host in Broad Cast Address and enter the CIDR subnet mask of "
+"the remote host in this field."
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:109
+msgid "Wake on LAN CIDR"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:115
+msgid "The Latitude of this display"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:115
+msgid "Latitude"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:121
+msgid "The Longitude of this Display"
+msgstr ""
+
+#: server/theme/default/html/display_form_edit.php:121
+msgid "Longitude"
+msgstr ""
+
+#: server/theme/default/html/display_form_group_assign.php:33
+msgid "Assigned Groups"
+msgstr ""
+
+#: server/theme/default/html/display_form_group_assign.php:41
+msgid "Available Groups"
+msgstr ""
+
+#: server/theme/default/html/display_form_mediainventory.php:35
+msgid "Id"
+msgstr ""
+
+#: server/theme/default/html/display_form_mediainventory.php:36
+msgid "Complete"
+msgstr ""
+
+#: server/theme/default/html/display_form_mediainventory.php:37
+msgid "Last Checked"
+msgstr ""
+
+#: server/theme/default/html/display_form_mediainventory.php:38
+msgid "MD5"
+msgstr ""
+
+#: server/theme/default/html/display_form_version_instructions.php:32
+msgid "Installer File"
+msgstr ""
+
+#: server/theme/default/html/display_form_version_instructions.php:41
+msgid "Version"
+msgstr ""
+
+#: server/theme/default/html/display_form_version_instructions.php:42
+msgid "Version Code"
+msgstr ""
+
+#: server/theme/default/html/display_form_wakeonlan.php:30
+msgid "Are you sure you want to send a Wake On Lan message to this display?"
+msgstr ""
+
+#: server/theme/default/html/display_page.php:37
+#: server/theme/default/html/homepage_mediamanager.php:32
+#: server/theme/default/html/layout_page.php:44
+#: server/theme/default/html/library_page.php:37
+#: server/theme/default/html/log_page.php:38
+#: server/theme/default/html/sessions_page.php:36
+#: server/theme/default/html/template_page.php:36
+#: server/theme/default/html/usergroup_page.php:38
+#: server/theme/default/html/user_page.php:38
+msgid "Open the filter form"
+msgstr ""
+
+#: server/theme/default/html/display_page.php:37
+#: server/theme/default/html/homepage_mediamanager.php:32
+#: server/theme/default/html/layout_page.php:44
+#: server/theme/default/html/library_page.php:37
+#: server/theme/default/html/log_page.php:38
+#: server/theme/default/html/media_form_datasetview_edit.php:72
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:71
+#: server/theme/default/html/sessions_page.php:36
+#: server/theme/default/html/template_page.php:36
+#: server/theme/default/html/usergroup_page.php:38
+#: server/theme/default/html/user_page.php:38
+msgid "Filter"
+msgstr ""
+
+#: server/theme/default/html/display_page.php:52
+#: server/theme/default/html/layout_page.php:67
+#: server/theme/default/html/library_page.php:71
+msgid "Keep Open"
+msgstr ""
+
+#: server/theme/default/html/display_page_grid.php:44
+#: server/theme/default/html/layout_page_grid.php:37
+#: server/theme/default/html/library_page_grid.php:41
+msgid "ID"
+msgstr ""
+
+#: server/theme/default/html/display_page_grid.php:49
+msgid "Email Alert"
+msgstr ""
+
+#: server/theme/default/html/display_page_grid.php:50
+#: server/theme/default/html/status_dashboard.php:46
+msgid "Logged In"
+msgstr ""
+
+#: server/theme/default/html/display_page_grid.php:51
+#: server/theme/default/html/sessions_page_grid.php:29
+msgid "Last Accessed"
+msgstr ""
+
+#: server/theme/default/html/display_page_grid.php:52
+#: server/theme/default/html/sessions_page_grid.php:33
+msgid "IP Address"
+msgstr ""
+
+#: server/theme/default/html/display_page_grid.php:53
+msgid "Mac Address"
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:36
+msgid "Report a fault with Xibo"
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:37
+msgid ""
+"Before reporting a fault it would be appreciated if you follow the below "
+"steps."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:41
+msgid "Check that the Environment passes all the Xibo Environment checks."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:45
+msgid "Turn ON full auditing and debugging."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:48
+msgid "Turn ON Debugging"
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:52
+msgid "Recreate the Problem in a new window."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:55
+msgid "Automatically collect and export relevant information into a text file."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:55
+msgid "Please save this file to your PC."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:56
+msgid "Collect and Save Data"
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:59
+msgid "Turn full auditing and debugging OFF."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:62
+msgid "Turn OFF Debugging"
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:66
+msgid ""
+"Click on the below link to open the bug report page for this Xibo release."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:66
+msgid "Describe the problem and upload the file you obtained earlier."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:67
+msgid "Ask a question in Launchpad"
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:75
+msgid ""
+"We will do our best to use the information collected above to solve your "
+"issue."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:76
+msgid ""
+"However sometimes this will not be enough and you will be asked to put your "
+"Xibo installation into \"Test\" mode."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:80
+msgid "Switch to Test Mode."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:83
+msgid "Switch to Test Mode"
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:87
+msgid "Recreate the Problem in a new window and Capture a screenshot."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:87
+msgid ""
+"You should send your screenshot to info@xibo.org.uk with a reference to the "
+"Launchpad Question/Bug you have created previously."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:90
+msgid "Switch to Production Mode."
+msgstr ""
+
+#: server/theme/default/html/fault_page.php:93
+msgid "Switch to Production Mode"
+msgstr ""
+
+#: server/theme/default/html/header.php:55
+msgid "Dashboard"
+msgstr ""
+
+#: server/theme/default/html/header.php:63
+msgid "Click to show more time information"
+msgstr ""
+
+#: server/theme/default/html/header.php:66
+msgid "Preferences"
+msgstr ""
+
+#: server/theme/default/html/header.php:71
+msgid "About the CMS"
+msgstr ""
+
+#: server/theme/default/html/help_form_add.php:31
+#: server/theme/default/html/help_form_edit.php:32
+msgid "The Topic for this Help Link"
+msgstr ""
+
+#: server/theme/default/html/help_form_add.php:31
+#: server/theme/default/html/help_form_edit.php:32
+#: server/theme/default/html/help_page_grid.php:36
+msgid "Topic"
+msgstr ""
+
+#: server/theme/default/html/help_form_add.php:35
+#: server/theme/default/html/help_form_edit.php:36
+msgid "The Category for this Help Link"
+msgstr ""
+
+#: server/theme/default/html/help_form_add.php:35
+#: server/theme/default/html/help_form_edit.php:36
+#: server/theme/default/html/help_page_grid.php:37
+msgid "Category"
+msgstr ""
+
+#: server/theme/default/html/help_form_add.php:39
+#: server/theme/default/html/help_form_edit.php:40
+msgid "The Link to open for this help topic and category"
+msgstr ""
+
+#: server/theme/default/html/help_form_add.php:39
+#: server/theme/default/html/help_form_edit.php:40
+#: server/theme/default/html/help_page_grid.php:38
+#: server/theme/default/html/media_form_webpage_add.php:30
+#: server/theme/default/html/media_form_webpage_edit.php:30
+msgid "Link"
+msgstr ""
+
+#: server/theme/default/html/help_page.php:36
+msgid "Add a new Help page"
+msgstr ""
+
+#: server/theme/default/html/homepage_mediamanager.php:48
+#: server/theme/default/html/log_page.php:53
+#: server/theme/default/html/sessions_page.php:51
+#: server/theme/default/html/template_page.php:52
+#: server/theme/default/html/usergroup_page.php:52
+#: server/theme/default/html/user_page.php:55
+msgid "Keep filter open"
+msgstr ""
+
+#: server/theme/default/html/homepage_mediamanager.php:52
+#: server/theme/default/html/homepage_mediamanager_grid.php:39
+msgid "Region"
+msgstr ""
+
+#: server/theme/default/html/homepage_mediamanager_grid.php:42
+msgid "Sequence"
+msgstr ""
+
+#: server/theme/default/html/layout_designer.php:44
+msgid "Add Region"
+msgstr ""
+
+#: server/theme/default/html/layout_designer.php:45
+msgid "Background"
+msgstr ""
+
+#: server/theme/default/html/layout_designer.php:46
+msgid "Edit the Layout Properties"
+msgstr ""
+
+#: server/theme/default/html/layout_designer.php:46
+msgid "Properties"
+msgstr ""
+
+#: server/theme/default/html/layout_designer.php:50
+msgid "Save Template"
+msgstr ""
+
+#: server/theme/default/html/layout_designer.php:55
+msgid "Layout Design"
+msgstr ""
+
+#: server/theme/default/html/layout_designer.php:71
+msgid "Layout Jump List"
+msgstr ""
+
+#: server/theme/default/html/layout_designer_form_timeline.php:28
+#: server/theme/default/html/library_page.php:38
+msgid "Add Media"
+msgstr ""
+
+#: server/theme/default/html/layout_form_add.php:32
+#: server/theme/default/html/layout_form_edit.php:37
+msgid "The Name of the Layout - (1 - 50 characters)"
+msgstr ""
+
+#: server/theme/default/html/layout_form_add.php:38
+#: server/theme/default/html/layout_form_edit.php:43
+msgid "An optional description of the Layout. (1 - 250 characters)"
+msgstr ""
+
+#: server/theme/default/html/layout_form_add.php:44
+#: server/theme/default/html/layout_form_edit.php:49
+msgid ""
+"Tags for this layout - used when searching for it. Space delimited. (1 - 250 "
+"characters)"
+msgstr ""
+
+#: server/theme/default/html/layout_form_add.php:44
+#: server/theme/default/html/layout_form_edit.php:49
+#: server/theme/default/html/layout_page.php:59
+#: server/theme/default/html/template_form_add.php:34
+#: server/theme/default/html/template_page.php:56
+#: server/theme/default/html/template_page_grid.php:37
+msgid "Tags"
+msgstr ""
+
+#: server/theme/default/html/layout_form_add.php:50
+msgid "Template"
+msgstr ""
+
+#: server/theme/default/html/layout_form_background.php:39
+msgid "Use the color picker to select the background color"
+msgstr ""
+
+#: server/theme/default/html/layout_form_background.php:39
+msgid "Background Color"
+msgstr ""
+
+#: server/theme/default/html/layout_form_background.php:43
+msgid "Select the background image from the library"
+msgstr ""
+
+#: server/theme/default/html/layout_form_background.php:43
+msgid "Background Image"
+msgstr ""
+
+#: server/theme/default/html/layout_form_background.php:45
+msgid "Background thumbnail"
+msgstr ""
+
+#: server/theme/default/html/layout_form_background.php:48
+msgid "Pick the resolution"
+msgstr ""
+
+#: server/theme/default/html/layout_form_background.php:48
+#: server/theme/default/html/resolution_form_add.php:32
+#: server/theme/default/html/resolution_form_edit.php:37
+#: server/theme/default/html/resolution_page_grid.php:36
+msgid "Resolution"
+msgstr ""
+
+#: server/theme/default/html/layout_form_copy.php:34
+msgid "The name for the new layout"
+msgstr ""
+
+#: server/theme/default/html/layout_form_copy.php:34
+msgid "New Name"
+msgstr ""
+
+#: server/theme/default/html/layout_form_copy.php:42
+msgid "Make new copies of all media on this layout?"
+msgstr ""
+
+#: server/theme/default/html/layout_form_delete.php:30
+msgid ""
+"Are you sure you want to delete this layout? All media will be unassigned. "
+"Any layout specific media such as text/rss will be lost."
+msgstr ""
+
+#: server/theme/default/html/layout_form_edit.php:55
+msgid "Retire this layout or not? It will no longer be visible in lists"
+msgstr ""
+
+#: server/theme/default/html/layout_form_edit.php:55
+#: server/theme/default/html/layout_page.php:62
+#: server/theme/default/html/library_page.php:61
+#: server/theme/default/html/user_form_edit.php:49
+msgid "Retired"
+msgstr ""
+
+#: server/theme/default/html/layout_form_retire.php:30
+msgid "Sorry unable to delete this layout."
+msgstr ""
+
+#: server/theme/default/html/layout_form_retire.php:31
+msgid "Would you like to retire this layout instead?"
+msgstr ""
+
+#: server/theme/default/html/library_form_media_add.php:36
+msgid "Add files"
+msgstr ""
+
+#: server/theme/default/html/library_form_media_add.php:41
+msgid "Start upload"
+msgstr ""
+
+#: server/theme/default/html/library_form_media_add.php:45
+msgid "Cancel upload"
+msgstr ""
+
+#: server/theme/default/html/library_form_media_add.php:71
+#: server/theme/default/html/library_form_media_edit.php:43
+msgid "The Name of this item - Leave blank to use the file name"
+msgstr ""
+
+#: server/theme/default/html/library_form_media_add.php:77
+#: server/theme/default/html/library_form_media_edit.php:49
+msgid ""
+"The duration in seconds this image should be displayed (may be overridden on "
+"each layout)"
+msgstr ""
+
+#: server/theme/default/html/library_form_media_add.php:121
+msgid "Set Background"
+msgstr ""
+
+#: server/theme/default/html/library_form_media_edit.php:57
+msgid ""
+"Update this media in all layouts it is assigned to. Note: It will only be "
+"replaced in layouts you have permission to edit."
+msgstr ""
+
+#: server/theme/default/html/library_page.php:38
+msgid "Add a new media item to the library"
+msgstr ""
+
+#: server/theme/default/html/library_page.php:66
+msgid "Duration in Seconds"
+msgstr ""
+
+#: server/theme/default/html/library_page_grid.php:45
+msgid "Size"
+msgstr ""
+
+#: server/theme/default/html/library_page_grid.php:48
+msgid "Revised"
+msgstr ""
+
+#: server/theme/default/html/library_page_grid.php:49
+msgid "File Name"
+msgstr ""
+
+#: server/theme/default/html/login_page.php:26
+msgid "Please Login"
+msgstr ""
+
+#: server/theme/default/html/login_page.php:77
+msgid "Please provide your credentials"
+msgstr ""
+
+#: server/theme/default/html/login_page.php:79
+msgid "User"
+msgstr ""
+
+#: server/theme/default/html/login_page.php:80
+#: server/theme/default/html/user_form_add.php:37
+msgid "Password"
+msgstr ""
+
+#: server/theme/default/html/login_page.php:87
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: server/theme/default/html/log_form_display_last100.php:29
+#: server/theme/default/html/log_page_grid.php:29
+msgid "LogId"
+msgstr ""
+
+#: server/theme/default/html/log_form_display_last100.php:31
+#: server/theme/default/html/log_page.php:57
+#: server/theme/default/html/log_page_grid.php:31
+msgid "Page"
+msgstr ""
+
+#: server/theme/default/html/log_form_display_last100.php:32
+#: server/theme/default/html/log_page.php:63
+#: server/theme/default/html/log_page_grid.php:32
+msgid "Function"
+msgstr ""
+
+#: server/theme/default/html/log_form_display_last100.php:33
+#: server/theme/default/html/log_page_grid.php:33
+msgid "Message"
+msgstr ""
+
+#: server/theme/default/html/log_form_truncate.php:30
+msgid "Are you sure you want to truncate?"
+msgstr ""
+
+#: server/theme/default/html/log_page.php:36
+msgid "Truncate the Log"
+msgstr ""
+
+#: server/theme/default/html/log_page.php:36
+msgid "Truncate"
+msgstr ""
+
+#: server/theme/default/html/log_page.php:37
+msgid "Refresh the Report"
+msgstr ""
+
+#: server/theme/default/html/log_page.php:37
+msgid "Refresh"
+msgstr ""
+
+#: server/theme/default/html/log_page.php:51
+#: server/theme/default/html/sessions_page.php:49
+msgid "From DT"
+msgstr ""
+
+#: server/theme/default/html/log_page.php:59
+msgid "Seconds back"
+msgstr ""
+
+#: server/theme/default/html/media_form_counter_add.php:28
+#: server/theme/default/html/media_form_counter_edit.php:28
+msgid "Python Client Only"
+msgstr ""
+
+#: server/theme/default/html/media_form_counter_add.php:30
+#: server/theme/default/html/media_form_counter_edit.php:30
+msgid "The duration in seconds this counter should be displayed"
+msgstr ""
+
+#: server/theme/default/html/media_form_counter_add.php:37
+#: server/theme/default/html/media_form_counter_edit.php:37
+msgid "Popup a notification when the counter changes"
+msgstr ""
+
+#: server/theme/default/html/media_form_counter_add.php:39
+#: server/theme/default/html/media_form_counter_edit.php:39
+msgid "Popup Notification?"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_add.php:29
+msgid "The DataSet for this View"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_add.php:29
+#: server/theme/default/html/media_form_ticker_add.php:45
+msgid "DataSet"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_add.php:35
+#: server/theme/default/html/media_form_datasetview_edit.php:32
+#: server/theme/default/html/media_form_embedded_add.php:31
+#: server/theme/default/html/media_form_embedded_edit.php:31
+#: server/theme/default/html/media_form_ticker_add.php:51
+msgid "The duration in seconds this data should be displayed"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_edit.php:38
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:83
+msgid "Lower Row Limit"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_edit.php:44
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:65
+msgid "Order"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_edit.php:53
+msgid "Show the table headings?"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_edit.php:60
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:57
+#: server/theme/default/html/media_form_ticker_edit.php:89
+msgid "Update Interval (mins)"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_edit.php:66
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:77
+msgid "Upper Row Limit"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_edit.php:78
+msgid "The number of rows per page"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_edit.php:78
+msgid "Rows per page"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_edit.php:87
+msgid "Columns Selected"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_edit.php:91
+msgid "Columns Available"
+msgstr ""
+
+#: server/theme/default/html/media_form_datasetview_edit.php:97
+msgid "Stylesheet for the Table"
+msgstr ""
+
+#: server/theme/default/html/media_form_embedded_add.php:37
+#: server/theme/default/html/media_form_embedded_edit.php:37
+msgid "An optional Name for this Embedded Item"
+msgstr ""
+
+#: server/theme/default/html/media_form_embedded_add.php:44
+#: server/theme/default/html/media_form_embedded_edit.php:44
+#: server/theme/default/html/media_form_webpage_add.php:61
+#: server/theme/default/html/media_form_webpage_edit.php:61
+msgid "Background transparent?"
+msgstr ""
+
+#: server/theme/default/html/media_form_embedded_add.php:53
+#: server/theme/default/html/media_form_embedded_edit.php:53
+msgid "HTML to Embed"
+msgstr ""
+
+#: server/theme/default/html/media_form_embedded_add.php:59
+#: server/theme/default/html/media_form_embedded_edit.php:59
+msgid "HEAD content to Embed (including script tags)"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:33
+#: server/theme/default/html/media_form_microblog_edit.php:33
+msgid "Enable Twitter Feed"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:33
+#: server/theme/default/html/media_form_microblog_edit.php:33
+msgid "Twitter"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:37
+#: server/theme/default/html/media_form_microblog_edit.php:37
+msgid "Enter a search term"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:37
+#: server/theme/default/html/media_form_microblog_edit.php:37
+msgid "Search Term"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:43
+#: server/theme/default/html/media_form_microblog_edit.php:43
+msgid "Fade Interval"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:49
+#: server/theme/default/html/media_form_microblog_edit.php:49
+msgid "How often to update this feed"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:49
+#: server/theme/default/html/media_form_microblog_edit.php:49
+msgid "Update Interval"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:59
+#: server/theme/default/html/media_form_microblog_edit.php:59
+msgid "Enable Identica Feed"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:59
+#: server/theme/default/html/media_form_microblog_edit.php:59
+msgid "Identica"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:63
+#: server/theme/default/html/media_form_microblog_edit.php:63
+#: server/theme/default/html/media_form_text_add.php:46
+#: server/theme/default/html/media_form_text_edit.php:46
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:44
+#: server/theme/default/html/media_form_ticker_edit.php:83
+#: server/theme/default/html/media_form_webpage_add.php:36
+#: server/theme/default/html/media_form_webpage_edit.php:36
+msgid "The duration in seconds this media should be displayed"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:69
+#: server/theme/default/html/media_form_microblog_edit.php:69
+msgid "The speed in seconds between each item"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:69
+#: server/theme/default/html/media_form_microblog_edit.php:69
+msgid "Speed"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:75
+#: server/theme/default/html/media_form_microblog_edit.php:75
+msgid "The History Size in Number of Items"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:75
+#: server/theme/default/html/media_form_microblog_edit.php:75
+msgid "History Size"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:84
+#: server/theme/default/html/media_form_microblog_edit.php:84
+msgid "Message Template"
+msgstr ""
+
+#: server/theme/default/html/media_form_microblog_add.php:90
+#: server/theme/default/html/media_form_microblog_edit.php:90
+msgid "Message to display when there are no messages"
+msgstr ""
+
+#: server/theme/default/html/media_form_shellcommand_add.php:30
+#: server/theme/default/html/media_form_shellcommand_edit.php:30
+msgid "Enter a Windows Command Line compatible command"
+msgstr ""
+
+#: server/theme/default/html/media_form_shellcommand_add.php:36
+#: server/theme/default/html/media_form_shellcommand_edit.php:36
+msgid "Enter a Linux Shell compatible command"
+msgstr ""
+
+#: server/theme/default/html/media_form_text_add.php:32
+#: server/theme/default/html/media_form_text_edit.php:32
+msgid "Direction to Scroll"
+msgstr ""
+
+#: server/theme/default/html/media_form_text_add.php:32
+#: server/theme/default/html/media_form_text_edit.php:32
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:32
+#: server/theme/default/html/media_form_ticker_edit.php:44
+msgid "Direction"
+msgstr ""
+
+#: server/theme/default/html/media_form_text_add.php:38
+#: server/theme/default/html/media_form_text_edit.php:38
+msgid ""
+"The scroll speed to apply if a direction is specified. Higher is faster."
+msgstr ""
+
+#: server/theme/default/html/media_form_text_add.php:38
+#: server/theme/default/html/media_form_text_edit.php:38
+msgid "Scroll Speed"
+msgstr ""
+
+#: server/theme/default/html/media_form_text_add.php:63
+#: server/theme/default/html/media_form_text_edit.php:63
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:113
+#: server/theme/default/html/media_form_ticker_edit.php:119
+msgid "Available Substitutions"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_add.php:30
+msgid ""
+"Please choose between a RSS/Atom feed or a DataSet as the source of this "
+"Ticker"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_add.php:33
+msgid "The source for this Ticker"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_add.php:33
+msgid "Source Type"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_add.php:39
+#: server/theme/default/html/media_form_ticker_edit.php:32
+msgid "Feed URL"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_add.php:45
+msgid "The DataSet for this Ticker"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:38
+#: server/theme/default/html/media_form_ticker_edit.php:50
+msgid "Scroll Speed (higher is faster)"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:51
+#: server/theme/default/html/media_form_ticker_edit.php:102
+msgid "The duration speficied is per item otherwise it is per feed."
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:51
+#: server/theme/default/html/media_form_ticker_edit.php:102
+msgid "Duration is per item"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:89
+#: server/theme/default/html/media_form_ticker_edit.php:62
+msgid "When in single mode how many items per page should be shown."
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:89
+#: server/theme/default/html/media_form_ticker_edit.php:62
+msgid "Items per Page"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:96
+#: server/theme/default/html/media_form_ticker_edit.php:109
+msgid "Show items side by side?"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_dataset_edit.php:130
+#: server/theme/default/html/media_form_ticker_edit.php:136
+msgid "Optional Stylesheet"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_edit.php:56
+msgid "The Number of RSS items you want to display"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_edit.php:56
+msgid "Number of Items"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_edit.php:77
+msgid "Copyright"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_edit.php:95
+msgid "Take the items from the beginning or the end of the list"
+msgstr ""
+
+#: server/theme/default/html/media_form_ticker_edit.php:95
+msgid "from the "
+msgstr ""
+
+#: server/theme/default/html/media_form_webpage_add.php:30
+#: server/theme/default/html/media_form_webpage_edit.php:30
+msgid "The Location (URL) of the webpage"
+msgstr ""
+
+#: server/theme/default/html/media_form_webpage_add.php:42
+#: server/theme/default/html/media_form_webpage_edit.php:42
+msgid "The starting point from the top in pixels"
+msgstr ""
+
+#: server/theme/default/html/media_form_webpage_add.php:42
+#: server/theme/default/html/media_form_webpage_edit.php:42
+msgid "Offset Top"
+msgstr ""
+
+#: server/theme/default/html/media_form_webpage_add.php:48
+#: server/theme/default/html/media_form_webpage_edit.php:48
+msgid "The starting point from the left in pixels"
+msgstr ""
+
+#: server/theme/default/html/media_form_webpage_add.php:48
+#: server/theme/default/html/media_form_webpage_edit.php:48
+msgid "Offset Left"
+msgstr ""
+
+#: server/theme/default/html/media_form_webpage_add.php:54
+#: server/theme/default/html/media_form_webpage_edit.php:54
+msgid "The Percentage to Scale this Webpage"
+msgstr ""
+
+#: server/theme/default/html/media_form_webpage_add.php:54
+#: server/theme/default/html/media_form_webpage_edit.php:54
+msgid "Scale Percentage"
+msgstr ""
+
+#: server/theme/default/html/module_form_edit.php:32
+msgid ""
+"The Extensions allowed on files uploaded using this module. Comma Seperated."
+msgstr ""
+
+#: server/theme/default/html/module_form_edit.php:32
+#: server/theme/default/html/module_page_grid.php:43
+msgid "Valid Extensions"
+msgstr ""
+
+#: server/theme/default/html/module_form_edit.php:36
+msgid "The Image to display for this module"
+msgstr ""
+
+#: server/theme/default/html/module_form_edit.php:36
+#: server/theme/default/html/module_page_grid.php:44
+msgid "Image Uri"
+msgstr ""
+
+#: server/theme/default/html/module_form_edit.php:40
+msgid ""
+"When PreviewEnabled users will be able to see a preview in the layout "
+"designer"
+msgstr ""
+
+#: server/theme/default/html/module_form_edit.php:40
+#: server/theme/default/html/module_page_grid.php:45
+msgid "Preview Enabled"
+msgstr ""
+
+#: server/theme/default/html/module_form_edit.php:43
+msgid "When Enabled users will be able to add media using this module"
+msgstr ""
+
+#: server/theme/default/html/module_page_grid.php:42
+msgid "Library Media"
+msgstr ""
+
+#: server/theme/default/html/module_page_grid.php:46
+msgid "Can this module be assigned to a Layout?"
+msgstr ""
+
+#: server/theme/default/html/module_page_grid.php:46
+msgid "Assignable"
+msgstr ""
+
+#: server/theme/default/html/region_form_options.php:32
+#: server/theme/default/html/region_form_options_no_transition.php:32
+msgid "Name of the Region"
+msgstr ""
+
+#: server/theme/default/html/region_form_options.php:36
+#: server/theme/default/html/region_form_options_no_transition.php:36
+msgid "Offset from the Top Corner"
+msgstr ""
+
+#: server/theme/default/html/region_form_options.php:36
+#: server/theme/default/html/region_form_options_no_transition.php:36
+msgid "Top Offset"
+msgstr ""
+
+#: server/theme/default/html/region_form_options.php:40
+#: server/theme/default/html/region_form_options_no_transition.php:40
+msgid "Offset from the Left Corner"
+msgstr ""
+
+#: server/theme/default/html/region_form_options.php:40
+#: server/theme/default/html/region_form_options_no_transition.php:40
+msgid "Left Offset"
+msgstr ""
+
+#: server/theme/default/html/region_form_options.php:44
+#: server/theme/default/html/region_form_options_no_transition.php:44
+msgid "Width of the Region"
+msgstr ""
+
+#: server/theme/default/html/region_form_options.php:44
+#: server/theme/default/html/region_form_options_no_transition.php:44
+#: server/theme/default/html/resolution_form_add.php:36
+#: server/theme/default/html/resolution_form_edit.php:41
+#: server/theme/default/html/resolution_page_grid.php:37
+msgid "Width"
+msgstr ""
+
+#: server/theme/default/html/region_form_options.php:48
+#: server/theme/default/html/region_form_options_no_transition.php:48
+msgid "Height of the Region"
+msgstr ""
+
+#: server/theme/default/html/region_form_options.php:48
+#: server/theme/default/html/region_form_options_no_transition.php:48
+#: server/theme/default/html/resolution_form_add.php:40
+#: server/theme/default/html/resolution_form_edit.php:45
+#: server/theme/default/html/resolution_page_grid.php:38
+msgid "Height"
+msgstr ""
+
+#: server/theme/default/html/region_form_options.php:52
+msgid "What transition should be applied when this region is finished?"
+msgstr ""
+
+#: server/theme/default/html/region_form_options.php:52
+msgid "Exit Transition"
+msgstr ""
+
+#: server/theme/default/html/region_form_options.php:60
+msgid "The direction for this transtion."
+msgstr ""
+
+#: server/theme/default/html/resolution_form_add.php:32
+#: server/theme/default/html/resolution_form_edit.php:37
+msgid "A name for this Resolution"
+msgstr ""
+
+#: server/theme/default/html/resolution_form_add.php:36
+#: server/theme/default/html/resolution_form_edit.php:41
+msgid "The Width for this Resolution"
+msgstr ""
+
+#: server/theme/default/html/resolution_form_add.php:40
+#: server/theme/default/html/resolution_form_edit.php:45
+msgid "Height for this Resolution"
+msgstr ""
+
+#: server/theme/default/html/resolution_page.php:37
+msgid "Add a new resolution for use on layouts"
+msgstr ""
+
+#: server/theme/default/html/resolution_page_grid.php:39
+msgid "Designer Width"
+msgstr ""
+
+#: server/theme/default/html/resolution_page_grid.php:40
+msgid "Designer Height"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:42
+#: server/theme/default/html/schedule_form_edit_event.php:42
+msgid "Event Schedule"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:46
+#: server/theme/default/html/schedule_form_edit_event.php:46
+msgid "Select the start time for this event"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:46
+#: server/theme/default/html/schedule_form_edit_event.php:46
+msgid "Start Time"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:57
+#: server/theme/default/html/schedule_form_edit_event.php:57
+msgid "Select the end time for this event"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:57
+#: server/theme/default/html/schedule_form_edit_event.php:57
+msgid "End Time"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:69
+#: server/theme/default/html/schedule_form_edit_event.php:69
+#: server/theme/default/html/schedule_form_schedule_now.php:44
+msgid "Select the Order for this Event"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:69
+#: server/theme/default/html/schedule_form_edit_event.php:69
+#: server/theme/default/html/schedule_form_schedule_now.php:44
+msgid "Display Order"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:71
+#: server/theme/default/html/schedule_form_add_event.php:72
+#: server/theme/default/html/schedule_form_edit_event.php:71
+#: server/theme/default/html/schedule_form_edit_event.php:72
+#: server/theme/default/html/schedule_form_schedule_now.php:48
+#: server/theme/default/html/schedule_form_schedule_now.php:49
+msgid ""
+"Sets whether or not this event has priority. If set the event will be show "
+"in preference to other events."
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:71
+#: server/theme/default/html/schedule_form_edit_event.php:71
+#: server/theme/default/html/schedule_form_schedule_now.php:48
+msgid "Priority"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:75
+#: server/theme/default/html/schedule_form_edit_event.php:75
+msgid "Recurring Event"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:78
+#: server/theme/default/html/schedule_form_edit_event.php:78
+msgid "What type of repeat is required?"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:78
+#: server/theme/default/html/schedule_form_edit_event.php:78
+msgid "Repeats"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:80
+#: server/theme/default/html/schedule_form_edit_event.php:80
+msgid "How often does this event repeat?"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:80
+#: server/theme/default/html/schedule_form_edit_event.php:80
+msgid "Repeat every"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:84
+#: server/theme/default/html/schedule_form_edit_event.php:84
+msgid "When should this event stop repeating?"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_add_event.php:84
+#: server/theme/default/html/schedule_form_edit_event.php:84
+msgid "Until"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_schedule_now.php:34
+msgid "How long should this event be scheduled for?"
+msgstr ""
+
+#: server/theme/default/html/schedule_form_schedule_now.php:40
+msgid "Select which layout this event will show."
+msgstr ""
+
+#: server/theme/default/html/schedule_form_schedule_now.php:40
+msgid "Campaign / Layout"
+msgstr ""
+
+#: server/theme/default/html/schedule_page_display_list.php:30
+msgid "Misc"
+msgstr ""
+
+#: server/theme/default/html/sessions_form_logout.php:30
+msgid "Are you sure you want to logout this user?"
+msgstr ""
+
+#: server/theme/default/html/sessions_page_grid.php:30
+msgid "Active"
+msgstr ""
+
+#: server/theme/default/html/sessions_page_grid.php:31
+msgid "User Name"
+msgstr ""
+
+#: server/theme/default/html/sessions_page_grid.php:32
+msgid "Last Page"
+msgstr ""
+
+#: server/theme/default/html/sessions_page_grid.php:34
+msgid "Browser"
+msgstr ""
+
+#: server/theme/default/html/settings_page.php:36
+msgid "View Help"
+msgstr ""
+
+#: server/theme/default/html/settings_page.php:37
+msgid "Save Settings"
+msgstr ""
+
+#: server/theme/default/html/stats_page.php:47
+msgid "From Date"
+msgstr ""
+
+#: server/theme/default/html/stats_page.php:49
+msgid "To Date"
+msgstr ""
+
+#: server/theme/default/html/stats_page_grid.php:26
+msgid "Export raw data to CSV"
+msgstr ""
+
+#: server/theme/default/html/stats_page_grid.php:32
+msgid "Layouts Shown"
+msgstr ""
+
+#: server/theme/default/html/stats_page_grid.php:38
+#: server/theme/default/html/stats_page_grid.php:66
+#: server/theme/default/html/stats_page_grid.php:95
+msgid "Number of Plays"
+msgstr ""
+
+#: server/theme/default/html/stats_page_grid.php:39
+#: server/theme/default/html/stats_page_grid.php:67
+#: server/theme/default/html/stats_page_grid.php:96
+msgid "Total Duration (s)"
+msgstr ""
+
+#: server/theme/default/html/stats_page_grid.php:40
+#: server/theme/default/html/stats_page_grid.php:68
+#: server/theme/default/html/stats_page_grid.php:97
+msgid "Total Duration"
+msgstr ""
+
+#: server/theme/default/html/stats_page_grid.php:41
+#: server/theme/default/html/stats_page_grid.php:69
+#: server/theme/default/html/stats_page_grid.php:98
+msgid "First Shown"
+msgstr ""
+
+#: server/theme/default/html/stats_page_grid.php:42
+#: server/theme/default/html/stats_page_grid.php:70
+#: server/theme/default/html/stats_page_grid.php:99
+msgid "Last Shown"
+msgstr ""
+
+#: server/theme/default/html/stats_page_grid.php:60
+msgid "Library Media Shown"
+msgstr ""
+
+#: server/theme/default/html/stats_page_grid.php:88
+msgid "Media on Layouts Shown"
+msgstr ""
+
+#: server/theme/default/html/status_dashboard.php:47
+msgid "Licence"
+msgstr ""
+
+#: server/theme/default/html/template_form_add.php:32
+msgid "The Name of the Template - (1 - 50 characters)"
+msgstr ""
+
+#: server/theme/default/html/template_form_add.php:34
+msgid ""
+"Tags for this Template - used when searching for it. Space delimited. (1 - "
+"250 characters)"
+msgstr ""
+
+#: server/theme/default/html/template_form_add.php:38
+msgid "An optional description of the Template. (1 - 250 characters)"
+msgstr ""
+
+#: server/theme/default/html/template_page.php:50
+msgid "System"
+msgstr ""
+
+#: server/theme/default/html/template_page_grid.php:36
+msgid "Is System"
+msgstr ""
+
+#: server/theme/default/html/transition_form_edit.php:32
+msgid "Can this transition be used for media start?"
+msgstr ""
+
+#: server/theme/default/html/transition_form_edit.php:32
+msgid "Available for In Transitions?"
+msgstr ""
+
+#: server/theme/default/html/transition_form_edit.php:36
+msgid "Can this transition be used for media end"
+msgstr ""
+
+#: server/theme/default/html/transition_form_edit.php:36
+msgid "Available for Out Transitions?"
+msgstr ""
+
+#: server/theme/default/html/transition_page_grid.php:36
+msgid "Has Duration"
+msgstr ""
+
+#: server/theme/default/html/transition_page_grid.php:37
+msgid "Has Direction"
+msgstr ""
+
+#: server/theme/default/html/transition_page_grid.php:38
+msgid "Enabled for In"
+msgstr ""
+
+#: server/theme/default/html/transition_page_grid.php:39
+msgid "Enabled for Out"
+msgstr ""
+
+#: server/theme/default/html/usergroup_form_add.php:31
+#: server/theme/default/html/usergroup_form_edit.php:31
+msgid "The Name for this User Group"
+msgstr ""
+
+#: server/theme/default/html/usergroup_form_menusecurity.php:35
+msgid "Menu"
+msgstr ""
+
+#: server/theme/default/html/usergroup_form_menusecurity_grid.php:33
+msgid "Menu Item"
+msgstr ""
+
+#: server/theme/default/html/usergroup_form_menusecurity_grid.php:34
+#: server/theme/default/html/usergroup_form_pagesecurity_grid.php:40
+#: server/theme/default/html/usergroup_form_user_assign.php:33
+msgid "Assigned"
+msgstr ""
+
+#: server/theme/default/html/usergroup_form_pagesecurity_grid.php:39
+msgid "Security Group"
+msgstr ""
+
+#: server/theme/default/html/usergroup_form_user_assign.php:41
+msgid "Available"
+msgstr ""
+
+#: server/theme/default/html/usergroup_page.php:39
+msgid "Add a new User Group"
+msgstr ""
+
+#: server/theme/default/html/usergroup_page.php:39
+msgid "Add User Group"
+msgstr ""
+
+#: server/theme/default/html/usergroup_page_grid.php:35
+msgid "User Group"
+msgstr ""
+
+#: server/theme/default/html/user_form_add.php:33
+#: server/theme/default/html/user_form_edit.php:33
+msgid "The Login Name of the user."
+msgstr ""
+
+#: server/theme/default/html/user_form_add.php:33
+#: server/theme/default/html/user_form_edit.php:33
+msgid "Username"
+msgstr ""
+
+#: server/theme/default/html/user_form_add.php:37
+msgid "The Password for this user."
+msgstr ""
+
+#: server/theme/default/html/user_form_add.php:41
+msgid "The Email Address for this user."
+msgstr ""
+
+#: server/theme/default/html/user_form_add.php:41
+#: server/theme/default/html/user_form_edit.php:37
+#: server/theme/default/html/user_page_grid.php:38
+msgid "Email"
+msgstr ""
+
+#: server/theme/default/html/user_form_add.php:45
+#: server/theme/default/html/user_form_edit.php:41
+#: server/theme/default/html/user_form_set_homepage.php:33
+msgid ""
+"The users Homepage. This should not be changed until you want to reset their "
+"homepage."
+msgstr ""
+
+#: server/theme/default/html/user_form_add.php:49
+#: server/theme/default/html/user_form_edit.php:45
+msgid "What is this users type?"
+msgstr ""
+
+#: server/theme/default/html/user_form_add.php:49
+#: server/theme/default/html/user_form_edit.php:45
+#: server/theme/default/html/user_page.php:53
+msgid "User Type"
+msgstr ""
+
+#: server/theme/default/html/user_form_add.php:53
+msgid "What is the initial user group for this user?"
+msgstr ""
+
+#: server/theme/default/html/user_form_add.php:53
+msgid "Initial User Group"
+msgstr ""
+
+#: server/theme/default/html/user_form_delete.php:31
+msgid ""
+"You may not be able to delete this user if they have associated content. You "
+"can retire users by using the Edit Button."
+msgstr ""
+
+#: server/theme/default/html/user_form_edit.php:37
+msgid "The Email for this user."
+msgstr ""
+
+#: server/theme/default/html/user_form_edit.php:49
+msgid "Is this user retired?"
+msgstr ""
+
+#: server/theme/default/html/user_page.php:39
+msgid "View my authenticated applications"
+msgstr ""
+
+#: server/theme/default/html/user_page.php:40
+msgid "Add a new User"
+msgstr ""
+
+#: server/theme/default/html/user_page.php:40
+msgid "Add User"
+msgstr ""
